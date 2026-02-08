@@ -44,6 +44,7 @@ A production‑style chatbot that demonstrates how real AI assistants are built:
 ## 📫 Connect
 
 * GitHub: [https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)
+* Instagram: [https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
 
 ---
 
