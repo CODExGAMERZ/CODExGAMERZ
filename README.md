@@ -1,6 +1,13 @@
-# 👋 Hi, I'm Aryan (CODExGAMERZ)
+# 👋 Hi, I’m Aryan (CODExGAMERZ)
 
-I’m an **AI, Machine Learning & Frontend developer** passionate about building **practical, production-ready systems** — from **hybrid AI architectures** to **modern web applications**. I focus on writing clean code, understanding systems deeply, and continuously improving my skills.
+I’m an **AI, Machine Learning, and Frontend developer** focused on building **practical, production-ready systems** — from **hybrid AI architectures** to **modern, performance-aware web applications**.
+
+I care about:
+
+* clean, understandable code
+* solid system design
+* solving real engineering problems (not just demos)
+* continuous learning through building
 
 ---
 
@@ -8,29 +15,54 @@ I’m an **AI, Machine Learning & Frontend developer** passionate about building
 
 ### 🤖 Hybrid AI Chatbot with Semantic Memory & LLM Learning
 
-A production-style AI chatbot demonstrating how **real-world AI assistants** are designed:
+A production-style AI chatbot that demonstrates how **real-world AI assistants** are architected beyond simple LLM wrappers.
 
-* 🧠 Intent classification (fast & local)
-* 📚 Semantic vector memory using FAISS
-* 🔎 Knowledge base lookup before LLM usage
-* 🤝 LLM used **only as a teacher**, not a dependency
-* 🔄 Automatic intent discovery & retraining
+**Key highlights:**
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
+* 🧠 Fast, local intent classification
+* 📚 Semantic vector memory using **FAISS**
+* 🔎 Knowledge-base retrieval before LLM usage
+* 🤝 LLM used as a **teacher**, not a hard dependency
+* 🔄 Automatic intent discovery and retraining pipeline
+
+🔗 **Repository:**
+[https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
 
 ---
 
 ### 🌐 Crypto Website
 
-A responsive cryptocurrency website displaying **live prices, charts, and coin data**, deployed on GitHub Pages.
+A responsive cryptocurrency website that displays **live prices, charts, and coin data**, deployed on GitHub Pages.
 
-* 📊 Live crypto price tracking
+**Features:**
+
+* 📊 Live cryptocurrency price tracking
 * 📈 Interactive charts
 * 🔍 Coin search functionality
-* 📱 Mobile-responsive UI
+* 📱 Fully responsive UI
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)
-🔗 **Live Demo:** [https://codexgamerz.github.io/crypto-website/](https://codexgamerz.github.io/crypto-website/)
+🔗 **Repository:**
+[https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)
+
+🔗 **Live Demo:**
+[https://codexgamerz.github.io/crypto-website/](https://codexgamerz.github.io/crypto-website/)
+
+---
+
+### ⏱️ FocusFlow – Personal Productivity App
+
+A multi-task productivity app with **independent per-task timers**, real-time analytics, and smooth UI updates — built with **Vanilla JavaScript**.
+
+**Highlights:**
+
+* Independent stopwatch per task (no timer interference)
+* Immediate, accurate `mm:ss` countdowns
+* Real-time productivity analytics
+* LocalStorage persistence
+* Performance-optimized DOM updates (no re-render jank)
+
+🔗 **Live Demo:**
+[https://codexgamerz.github.io/focusflow/](https://codexgamerz.github.io/focusflow/)
 
 ---
 
@@ -40,28 +72,28 @@ A responsive cryptocurrency website displaying **live prices, charts, and coin d
 * Natural Language Processing (NLP)
 * Hybrid AI systems (ML + LLMs)
 * Vector databases & semantic search
-* Responsible & safe AI design
-* Frontend development & UI/UX
+* Responsible and safe AI design
+* Frontend development & UI/UX engineering
 
 ---
 
 ## 🛠 Tech Stack
 
-**Programming & Core**
+### Programming & Core
 
 * Python
-* JavaScript (ES6)
+* JavaScript (ES6+)
 * HTML5, CSS3
 
-**AI / ML**
+### AI / ML
 
 * TensorFlow / Keras
 * FAISS
 * Sentence Transformers
-* NLP (NLTK, spaCy)
+* NLP: NLTK, spaCy
 * OpenAI / LLM APIs
 
-**Tools & Platforms**
+### Tools & Platforms
 
 * Git & GitHub
 * GitHub Pages
@@ -76,6 +108,6 @@ A responsive cryptocurrency website displaying **live prices, charts, and coin d
 
 ---
 
-> I enjoy building systems that are **understandable, efficient, and responsible** — whether it's an AI model that learns over time or a clean, responsive web application.
+> I enjoy building systems that are **understandable, efficient, and responsible** — whether it’s an AI model that learns over time or a carefully optimized web application.
 
-⭐ Feel free to explore my repositories and follow my journey!
+⭐ Feel free to explore my repositories and follow my journey.
