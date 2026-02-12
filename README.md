@@ -61,6 +61,9 @@ A multi-task productivity app with **independent per-task timers**, real-time an
 * LocalStorage persistence
 * Performance-optimized DOM updates (no re-render jank)
 
+🔗 **Repository:**
+[https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)
+
 🔗 **Live Demo:**
 [https://codexgamerz.github.io/focusflow/](https://codexgamerz.github.io/focusflow/)
 
