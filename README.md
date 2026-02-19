@@ -1,13 +1,13 @@
 # 👋 Hi, I’m Aryan (CODExGAMERZ)
 
-I’m an **AI, Machine Learning, and Frontend developer** focused on building **practical, production-ready systems** — from **hybrid AI architectures** to **modern, performance-aware web applications**.
+I’m an **AI, Machine Learning, and Software Developer** focused on building **practical, production-ready systems** — from **hybrid AI architectures** to **efficient, performance-aware applications**.
 
-I care about:
+I enjoy working at the intersection of **theory and real-world engineering**, and I strongly believe that good systems should be:
 
-* clean, understandable code
-* solid system design
-* solving real engineering problems (not just demos)
-* continuous learning through building
+* clean and understandable
+* well-designed and maintainable
+* built to solve real problems (not just demos)
+* improved continuously through hands-on experimentation
 
 ---
 
@@ -15,11 +15,11 @@ I care about:
 
 ### 🤖 Hybrid AI Chatbot with Semantic Memory & LLM Learning
 
-A production-style AI chatbot that demonstrates how **real-world AI assistants** are architected beyond simple LLM wrappers.
+A production-style AI chatbot that demonstrates how **real-world AI assistants** are designed beyond simple LLM wrappers.
 
 **Key highlights:**
 
-* 🧠 Fast, local intent classification
+* 🧠 Fast, local intent classification (traditional ML)
 * 📚 Semantic vector memory using **FAISS**
 * 🔎 Knowledge-base retrieval before LLM usage
 * 🤝 LLM used as a **teacher**, not a hard dependency
@@ -27,6 +27,23 @@ A production-style AI chatbot that demonstrates how **real-world AI assistants**
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
+
+---
+
+### 🧠 Python Code Autocomplete LLM (From Scratch)
+
+A **GPT-style Transformer** trained entirely from scratch to perform **Python code autocompletion**, using **real open-source GitHub repositories** and **no external LLM APIs**.
+
+**Highlights:**
+
+* Decoder-only Transformer with causal masking
+* Custom BPE tokenizer trained on Python code
+* Fine-tuned on real GitHub repositories (Flask, Requests, FastAPI)
+* End-to-end data pipeline, training loop, and inference
+* Runs fully locally on CPU
+
+🔗 **Repository:**
+[https://github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 
 ---
 
@@ -51,15 +68,15 @@ A responsive cryptocurrency website that displays **live prices, charts, and coi
 
 ### ⏱️ FocusFlow – Personal Productivity App
 
-A multi-task productivity app with **independent per-task timers**, real-time analytics, and smooth UI updates — built with **Vanilla JavaScript**.
+A lightweight productivity app with **independent per-task timers**, real-time analytics, and smooth UI updates — built with **Vanilla JavaScript**.
 
 **Highlights:**
 
 * Independent stopwatch per task (no timer interference)
-* Immediate, accurate `mm:ss` countdowns
+* Accurate `mm:ss` countdowns
 * Real-time productivity analytics
 * LocalStorage persistence
-* Performance-optimized DOM updates (no re-render jank)
+* Performance-optimized DOM updates
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)
@@ -74,9 +91,10 @@ A multi-task productivity app with **independent per-task timers**, real-time an
 * Artificial Intelligence & Machine Learning
 * Natural Language Processing (NLP)
 * Hybrid AI systems (ML + LLMs)
+* Transformers & representation learning
 * Vector databases & semantic search
 * Responsible and safe AI design
-* Frontend development & UI/UX engineering
+* Software architecture & system design
 
 ---
 
@@ -90,11 +108,12 @@ A multi-task productivity app with **independent per-task timers**, real-time an
 
 ### AI / ML
 
+* PyTorch
 * TensorFlow / Keras
 * FAISS
 * Sentence Transformers
 * NLP: NLTK, spaCy
-* OpenAI / LLM APIs
+* LLM APIs (OpenAI, open-source models)
 
 ### Tools & Platforms
 
@@ -111,6 +130,6 @@ A multi-task productivity app with **independent per-task timers**, real-time an
 
 ---
 
-> I enjoy building systems that are **understandable, efficient, and responsible** — whether it’s an AI model that learns over time or a carefully optimized web application.
+> I enjoy building systems that are **understandable, efficient, and responsible** — whether it’s an AI model that learns over time or a carefully optimized software system.
 
 ⭐ Feel free to explore my repositories and follow my journey.
