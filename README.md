@@ -1,62 +1,110 @@
-# 👋 Hi, I’m Aryan (CODExGAMERZ)
+# 👋 Hey, I'm Aryan (CODExGAMERZ)
 
-I’m an **AI, Machine Learning, and Software Developer** focused on building **practical, production-ready systems** — from **hybrid AI architectures** to **efficient, performance-aware applications**.
+### AI Engineer • ML Developer • Software Builder
 
-I enjoy working at the intersection of **theory and real-world engineering**, and I strongly believe that good systems should be:
+I build **AI systems, developer tools, and performance-focused software** designed for real-world usage — not just prototypes.
 
-* clean and understandable
-* well-designed and maintainable
-* built to solve real problems (not just demos)
-* improved continuously through hands-on experimentation
+My work focuses on combining:
+
+* **Machine Learning**
+* **Large Language Models**
+* **System Design**
+* **Efficient Software Engineering**
+
+to create systems that are:
+
+* scalable
+* understandable
+* maintainable
+* practical in production environments
+
+I enjoy exploring how modern AI systems work internally — from **Transformers and semantic retrieval** to **hybrid AI architectures and intelligent automation systems**.
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 🤖 Hybrid AI Chatbot with Semantic Memory & LLM Learning
+## 🤖 Hybrid AI Chatbot with Semantic Memory & Self-Learning Pipeline
 
-A production-style AI chatbot that demonstrates how **real-world AI assistants** are designed beyond simple LLM wrappers.
+A production-oriented AI assistant architecture demonstrating how modern assistants are built beyond simple API wrappers.
 
-**Key highlights:**
+### ✨ Features
 
-* 🧠 Fast, local intent classification (traditional ML)
-* 📚 Semantic vector memory using **FAISS**
-* 🔎 Knowledge-base retrieval before LLM usage
-* 🤝 LLM used as a **teacher**, not a hard dependency
-* 🔄 Automatic intent discovery and retraining pipeline
+* 🧠 Local intent classification using traditional ML
+* 📚 Semantic vector memory powered by FAISS
+* 🔎 Retrieval-Augmented Generation (RAG)-style workflow
+* 🤝 LLM used as a learning/teaching system instead of full dependency
+* 🔄 Automatic retraining pipeline with intent discovery
+* ⚡ Optimized hybrid AI architecture for lower inference cost
+
+### 🛠 Tech
+
+`Python` `FAISS` `Sentence Transformers` `NLP` `Machine Learning`
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
 
 ---
 
-### 🧠 Python Code Autocomplete LLM (From Scratch)
+## 🧠 Python Code Autocomplete LLM (Built From Scratch)
 
-A **GPT-style Transformer** trained entirely from scratch to perform **Python code autocompletion**, using **real open-source GitHub repositories** and **no external LLM APIs**.
+A GPT-style Transformer trained entirely from scratch for Python code autocompletion using real-world open-source repositories.
 
-**Highlights:**
+### ✨ Features
 
-* Decoder-only Transformer with causal masking
-* Custom BPE tokenizer trained on Python code
-* Fine-tuned on real GitHub repositories (Flask, Requests, FastAPI)
-* End-to-end data pipeline, training loop, and inference
-* Runs fully locally on CPU
+* Decoder-only Transformer architecture
+* Custom Byte Pair Encoding (BPE) tokenizer
+* Causal masking implementation
+* End-to-end training pipeline
+* Trained on real GitHub repositories
+* Fully local inference (CPU compatible)
+
+### 🛠 Tech
+
+`PyTorch` `Transformers` `Deep Learning` `Tokenizer Training`
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 
 ---
 
-### 🌐 Crypto Website
+## 💻 C-Code-Assistant
 
-A responsive cryptocurrency website that displays **live prices, charts, and coin data**, deployed on GitHub Pages.
+An AI-powered C programming assistant designed to help users write, compile, debug, and execute C programs efficiently.
 
-**Features:**
+### ✨ Features
 
-* 📊 Live cryptocurrency price tracking
-* 📈 Interactive charts
-* 🔍 Coin search functionality
+* Real-time code compilation & execution
+* AI-assisted debugging support
+* Interactive coding environment
+* Error visualization system
+* Developer-focused UI/UX
+* Productivity-focused workflow enhancements
+
+### 🛠 Tech
+
+`Python` `JavaScript` `Compiler Integration` `Developer Tools`
+
+🔗 **Repository:**
+[https://github.com/CODExGAMERZ/C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant)
+
+---
+
+## 🌐 Crypto Website
+
+A responsive cryptocurrency tracking platform featuring live market data and interactive charts.
+
+### ✨ Features
+
+* 📊 Live cryptocurrency tracking
+* 📈 Interactive market charts
+* 🔍 Coin search system
 * 📱 Fully responsive UI
+* ⚡ Fast client-side rendering
+
+### 🛠 Tech
+
+`JavaScript` `REST APIs` `HTML5` `CSS3`
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)
@@ -66,17 +114,21 @@ A responsive cryptocurrency website that displays **live prices, charts, and coi
 
 ---
 
-### ⏱️ FocusFlow – Personal Productivity App
+## ⏱️ FocusFlow – Productivity & Task Tracking App
 
-A lightweight productivity app with **independent per-task timers**, real-time analytics, and smooth UI updates — built with **Vanilla JavaScript**.
+A lightweight productivity application featuring independent timers, analytics, and optimized UI updates.
 
-**Highlights:**
+### ✨ Features
 
-* Independent stopwatch per task (no timer interference)
-* Accurate `mm:ss` countdowns
-* Real-time productivity analytics
-* LocalStorage persistence
-* Performance-optimized DOM updates
+* ⏲ Independent per-task timers
+* 📊 Real-time productivity analytics
+* 💾 LocalStorage persistence
+* ⚡ Optimized DOM rendering
+* 📱 Smooth responsive experience
+
+### 🛠 Tech
+
+`Vanilla JavaScript` `Performance Optimization` `UI Engineering`
 
 🔗 **Repository:**
 [https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)
@@ -86,50 +138,73 @@ A lightweight productivity app with **independent per-task timers**, real-time a
 
 ---
 
-## 🧠 Areas of Interest
+# 🧠 Interests & Research Areas
 
 * Artificial Intelligence & Machine Learning
 * Natural Language Processing (NLP)
-* Hybrid AI systems (ML + LLMs)
-* Transformers & representation learning
-* Vector databases & semantic search
-* Responsible and safe AI design
-* Software architecture & system design
+* Hybrid AI Systems (ML + LLMs)
+* Transformers & Representation Learning
+* Semantic Search & Vector Databases
+* AI Agents & Intelligent Automation
+* System Design & Software Architecture
+* Efficient Local AI Systems
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-### Programming & Core
+## Languages
 
 * Python
-* JavaScript (ES6+)
-* HTML5, CSS3
+* JavaScript
+* C
+* HTML5 / CSS3
 
-### AI / ML
+## AI / Machine Learning
 
 * PyTorch
 * TensorFlow / Keras
 * FAISS
 * Sentence Transformers
-* NLP: NLTK, spaCy
-* LLM APIs (OpenAI, open-source models)
+* NLTK
+* spaCy
+* OpenAI APIs
+* Open-Source LLMs
 
-### Tools & Platforms
+## Tools & Platforms
 
 * Git & GitHub
 * GitHub Pages
 * REST APIs
+* VS Code
+* Linux / WSL
+* Ollama
 
 ---
 
-## 📫 Connect With Me
+# 📈 Current Focus
 
-* 🐙 GitHub: [https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)
-* 📸 Instagram: [https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
+Currently exploring:
+
+* LLM architecture & optimization
+* AI agents and autonomous workflows
+* Retrieval-Augmented Generation (RAG)
+* Local AI systems
+* Developer tooling powered by AI
+* Efficient inference pipelines
 
 ---
 
-> I enjoy building systems that are **understandable, efficient, and responsible** — whether it’s an AI model that learns over time or a carefully optimized software system.
+# 📫 Connect With Me
 
-⭐ Feel free to explore my repositories and follow my journey.
+🐙 GitHub:
+[https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)
+
+📸 Instagram:
+[https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
+
+---
+
+> “I enjoy building systems that are efficient, understandable, and genuinely useful — whether it's an AI model, a developer tool, or a scalable software architecture.”
+
+⭐ Feel free to explore my repositories and follow my journey into AI, software engineering, and intelligent systems.
