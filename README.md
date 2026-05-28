@@ -101,6 +101,20 @@ A lightweight task stopwatch and analytics app optimized for fluid micro-animati
 
 ---
 
+## 📝 WebNotes – Programming Knowledge Hub
+A premium, interactive web client designed for organizing, reading, and studying programming study guides and reference notes.
+
+* **📖 Interactive Carousel:** Includes a 3-card rotating notes selector with scale/opacity adjustments.
+* **🐍 Language Bundles & Metaphors:** Packaged with detailed Python, Java, and C guides using real-world metaphors and GDB/Vim cheat sheets.
+* **⬆️ Markdown Import & Auto-Theme:** Drop markdown files into the browser; the app auto-parses headings and applies custom language themes from 24 language configurations using syntax scoring.
+* **📄 Print Overrides (PDF):** Download notes as high-contrast print-ready PDFs with clean custom CSS print stylesheets.
+
+`Vanilla JavaScript` `Marked.js` `Highlight.js` `Html2pdf.js` `HTML5 / CSS3`
+
+🔗 **Repository:** [https://github.com/CODExGAMERZ/WebNotes](https://github.com/CODExGAMERZ/WebNotes)
+
+---
+
 ## 🎬 CineFinder – Movie Discovery Engine
 A modern glassmorphic web catalog to discover film statistics, director crews, cast lineups, ratings, and box office charts.
 
