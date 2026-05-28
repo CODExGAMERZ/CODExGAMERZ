@@ -2,14 +2,18 @@
 
 ### AI Engineer • ML Developer • Software Builder
 
-I build **AI systems, developer tools, and performance-focused software** designed for real-world usage — not just prototypes.
+I build **AI systems, developer tools, and performance-focused software** designed for real-world usage — not just prototypes. 
 
-My work focuses on combining:
+🚀 **Explore my live portfolio: [codexgamerz.github.io](https://codexgamerz.github.io)**
 
-* **Machine Learning & Deep Learning**
-* **Large Language Models & Local Inference**
-* **System Design & Compiler Integration**
-* **Client-Side Optimization & Caching Architectures**
+---
+
+## 🛠️ Focus Areas
+
+* **🧠 Machine Learning & Deep Learning** — Custom models, training pipelines, and inference optimization.
+* **🤖 Large Language Models & Local Inference** — Building and deploying language models on consumer hardware.
+* **⚙️ System Design** — Compiler integration, proxy architectures, and hybrid systems.
+* **⚡ Client-Side Optimization** — Caching architectures, performance tuning, and resilient UIs.
 
 I enjoy exploring how modern systems work internally — from **Transformers and semantic retrieval** to **compilers, hybrid AI, and developer automation tools**.
 
@@ -17,7 +21,7 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
-## 🤖 Hybrid AI Chatbot with Semantic Memory & Self-Learning Pipeline
+## 🤖 Hybrid AI Chatbot
 A production-oriented AI assistant architecture demonstrating how modern assistants are built beyond simple API wrappers. It uses classical NLP/Keras for intent classification, FAISS vector search for local concept memory, and a custom LLM teacher fallback model.
 
 * **🧠 Smart Decision Flow:** FAISS Semantic Memory ➔ Local Knowledge Base ➔ Intent Classifier ➔ LLM Fallback (Teacher).
@@ -26,11 +30,11 @@ A production-oriented AI assistant architecture demonstrating how modern assista
 
 `Python` `TensorFlow (Keras)` `FAISS` `Sentence Transformers` `NLP` `Machine Learning`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
+🔗 **Repository:** [github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
 
 ---
 
-## 🧠 Python Code Autocomplete LLM (Decoder-Only GPT from Scratch)
+## 🧬 Code Autocomplete LLM
 A GPT-style autoregressive Transformer trained entirely from scratch for Python code autocompletion.
 
 * **⚙️ True GPT Decoder:** Implements causal self-attention mechanism, layer normalization, and causal masking.
@@ -39,11 +43,11 @@ A GPT-style autoregressive Transformer trained entirely from scratch for Python 
 
 `PyTorch` `Tokenizers` `Deep Learning` `Language Modeling` `Transformers`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
+🔗 **Repository:** [github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 
 ---
 
-## ⚡ llm-advisor.dev – Hardware Rig Compatibility Calculator
+## ⚡ llm-advisor.dev
 A precision advisor for running Large Language Models on local consumer rigs, workstations, servers, and Apple Silicon.
 
 * **🔬 Mode A (Model ➔ Specs):** Dynamic VRAM breakdown (Weights vs. KV Cache vs. Overhead) and tokens/sec estimates.
@@ -53,41 +57,54 @@ A precision advisor for running Large Language Models on local consumer rigs, wo
 
 `Vanilla JavaScript` `ES Modules (ESM)` `Math Estimation` `Web Design`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/llm-advisor](https://github.com/CODExGAMERZ/llm-advisor)
+🔗 **Repository:** [github.com/CODExGAMERZ/llm-advisor](https://github.com/CODExGAMERZ/llm-advisor)  
+🔗 **Live Demo:** [llm-advisor-ai.vercel.app](https://llm-advisor-ai.vercel.app/)
 
 ---
 
-## 💻 C-Code-Assistant & 🐍 Python-Code-Assistant
-Fully local, AI-powered programming companion IDEs that serve code completions, linting, error fixing, and execution.
+## 🛠️ C-Code-Assistant
+A fully local, AI-powered programming companion IDE that serves C code completions, linting, error fixing, and execution.
 
-* **▶️ In-Browser Runners:** Runs code with sub-process execution timeouts (GCC/Python) directly from the browser.
-* **🔍 Live Code Linting:** Gutter marker visual integrations utilizing `cppcheck`/`gcc` for C and `flake8`/`py_compile` for Python.
+* **▶️ In-Browser Runner:** Runs C code with sub-process execution timeouts (GCC) directly from the browser.
+* **🔍 Live Code Linting:** Gutter marker visual integrations utilizing `cppcheck`/`gcc`.
 * **🔄 Quality-Retry Gate:** Real-time stream auditor that uses LLMs to self-correct code output if validations fail.
 * **🔒 Same-Origin Proxy:** Flask proxy routes all Ollama traffic, removing the need to expose Ollama origins.
 
-`Python` `Flask` `JavaScript` `Compiler Integration` `Developer Tools` `Ollama`
+`Python` `Flask` `JavaScript` `Compiler Integration` `Developer Tools` `Ollama` `GCC`
 
-🔗 **C Assistant Repo:** [https://github.com/CODExGAMERZ/C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant)  
-🔗 **Python Assistant Repo:** [https://github.com/CODExGAMERZ/Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)
+🔗 **Repository:** [github.com/CODExGAMERZ/C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant)
 
 ---
 
-## 🌐 Kryptonix – Advanced Cryptocurrency Tracker
+## 🐍 Python-Code-Assistant
+A fully local, AI-powered programming companion IDE that serves Python code completions, linting, error fixing, and execution.
+
+* **▶️ In-Browser Runner:** Runs Python code with sub-process execution timeouts directly from the browser.
+* **🔍 Live Code Linting:** Gutter marker visual integrations utilizing `flake8`/`py_compile`.
+* **🔒 Same-Origin Proxy:** Flask proxy routes all Ollama traffic, removing the need to expose Ollama origins.
+
+`Python` `Flask` `JavaScript` `Developer Tools` `Ollama` `flake8`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)
+
+---
+
+## 💎 Kryptonix
 A premium, dark-first obsidian glassmorphism crypto dashboard with dual-level caching and resilient fallback mechanisms.
 
 * **📊 Live Markets Portal:** Interactive spot lists, exchange tracking, growth categories, and institutional Bitcoin holdings.
 * **🧮 Double Caching:** Custom 5-minute local storage cache that protects user interactions from CoinGecko API rate limits.
 * **🔌 Resilient Fallbacks:** Dynamically launches a clean warning banner and loads cached mock data when API limit hits (429).
-* **📈 TradingView widgets:** Integrates high-fidelity interactive charting dashboards and quote widgets.
+* **📈 TradingView Widgets:** Integrates high-fidelity interactive charting dashboards and quote widgets.
 
 `JavaScript` `Chart.js` `TradingView API` `HTML5` `CSS3` `REST APIs`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)  
-🔗 **Live Demo:** [https://codexgamerz.github.io/crypto-website/](https://codexgamerz.github.io/crypto-website/)
+🔗 **Repository:** [github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)  
+🔗 **Live Demo:** [kryptonix-tv.vercel.app](https://kryptonix-tv.vercel.app/)
 
 ---
 
-## ⏱️ FocusFlow – Productivity & Task Tracking App
+## 🎯 FocusFlow
 A lightweight task stopwatch and analytics app optimized for fluid micro-animations and zero state loss.
 
 * **⏲️ Per-Task Stopwatches:** Run independent timers concurrently without code blocks or timing delays.
@@ -96,12 +113,12 @@ A lightweight task stopwatch and analytics app optimized for fluid micro-animati
 
 `Vanilla JavaScript` `Performance Optimization` `UI Engineering` `Local Storage`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)  
-🔗 **Live Demo:** [https://codexgamerz.github.io/focusflow/](https://codexgamerz.github.io/focusflow/)
+🔗 **Repository:** [github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)  
+🔗 **Live Demo:** [focusflow-tv.vercel.app](https://focusflow-tv.vercel.app/)
 
 ---
 
-## 📝 WebNotes – Programming Knowledge Hub
+## 📚 WebNotes
 A premium, interactive web client designed for organizing, reading, and studying programming study guides and reference notes.
 
 * **📖 Interactive Carousel:** Includes a 3-card rotating notes selector with scale/opacity adjustments.
@@ -111,11 +128,12 @@ A premium, interactive web client designed for organizing, reading, and studying
 
 `Vanilla JavaScript` `Marked.js` `Highlight.js` `Html2pdf.js` `HTML5 / CSS3`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/WebNotes](https://github.com/CODExGAMERZ/WebNotes)
+🔗 **Repository:** [github.com/CODExGAMERZ/WebNotes](https://github.com/CODExGAMERZ/WebNotes)  
+🔗 **Live Demo:** [webynotes.netlify.app](https://webynotes.netlify.app/)
 
 ---
 
-## 🎬 CineFinder – Movie Discovery Engine
+## 🎬 CineFinder
 A modern glassmorphic web catalog to discover film statistics, director crews, cast lineups, ratings, and box office charts.
 
 * **🧩 Key Checker Wizard:** Evaluates and guides developers to set up OMDb credentials via UI helpers.
@@ -124,11 +142,11 @@ A modern glassmorphic web catalog to discover film statistics, director crews, c
 
 `JavaScript` `OMDb API` `CSS Glassmorphism` `HTML5`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/Movie](https://github.com/CODExGAMERZ/Movie)
+🔗 **Repository:** [github.com/CODExGAMERZ/Movie](https://github.com/CODExGAMERZ/Movie)
 
 ---
 
-## 🔲 Custom QR Code Generator CLI
+## 📱 QR Code Generator CLI
 An interactive and CLI utility to customize, generate, and preview QR codes.
 
 * **🎨 Wizard Setup:** Step-by-step console questionnaire for colors, sizes, borders, and image paths.
@@ -137,38 +155,40 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 
 `Python` `qrcode` `Pillow` `CLI Design`
 
-🔗 **Repository:** [https://github.com/CODExGAMERZ/QrCODE-GENRATOR](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)
+🔗 **Repository:** [github.com/CODExGAMERZ/QrCODE-GENRATOR](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)
 
 ---
 
 # 🧠 Interests & Research Areas
 
-* Artificial Intelligence & Machine Learning
-* Deep Learning & Transformer Architectures
-* Hybrid AI Systems (Traditional ML + Vector DBs + LLMs)
-* Local AI & Inference Bandwidth Optimization
-* Developer Tooling & Static Analysis Integration
+* 🤖 **AI & Machine Learning** — Neural networks, classification, and intelligent automation.
+* 🧬 **Deep Learning & Transformers** — Attention mechanisms, GPT architectures, and training from scratch.
+* 🔗 **Hybrid AI Systems** — Combining traditional ML, vector DBs, and LLMs for robust pipelines.
+* ⚡ **Local AI & Inference Optimization** — Running models on consumer hardware with minimal latency.
+* 🛠️ **Developer Tooling & Static Analysis** — Linting integrations, code assistants, and compiler toolchains.
+* 🌐 **Performance-First Web Engineering** — Caching, resilient UIs, and zero-dependency architectures.
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-### Languages
+### 💻 Languages
 `Python` `JavaScript (ES6+)` `C` `HTML5` `CSS3`
 
-### AI / Deep Learning
+### 🧠 AI / Deep Learning
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
-### Tools & Infrastructures
+### 🔧 Tools & Infrastructures
 `Git` `GitHub Pages` `Flask` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
 # 📫 Connect With Me
 
-🐙 GitHub: [https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)  
-📸 Instagram: [https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
+- **🐙 GitHub:** [github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)
+- **📸 Instagram:** [@aryannotsinha](https://www.instagram.com/aryannotsinha)
+- **⚡ Portfolio:** [codexgamerz.github.io](https://codexgamerz.github.io)
 
 ---
 
-> “I enjoy building systems that are efficient, understandable, and genuinely useful — whether it's a custom-trained LLM, a developer tool, or a responsive caching client.”
+> *"I enjoy building systems that are efficient, understandable, and genuinely useful — whether it's a custom-trained LLM, a developer tool, or a responsive caching client."*
