@@ -6,205 +6,155 @@ I build **AI systems, developer tools, and performance-focused software** design
 
 My work focuses on combining:
 
-* **Machine Learning**
-* **Large Language Models**
-* **System Design**
-* **Efficient Software Engineering**
+* **Machine Learning & Deep Learning**
+* **Large Language Models & Local Inference**
+* **System Design & Compiler Integration**
+* **Client-Side Optimization & Caching Architectures**
 
-to create systems that are:
-
-* scalable
-* understandable
-* maintainable
-* practical in production environments
-
-I enjoy exploring how modern AI systems work internally — from **Transformers and semantic retrieval** to **hybrid AI architectures and intelligent automation systems**.
+I enjoy exploring how modern systems work internally — from **Transformers and semantic retrieval** to **compilers, hybrid AI, and developer automation tools**.
 
 ---
 
 # 🚀 Featured Projects
 
 ## 🤖 Hybrid AI Chatbot with Semantic Memory & Self-Learning Pipeline
+A production-oriented AI assistant architecture demonstrating how modern assistants are built beyond simple API wrappers. It uses classical NLP/Keras for intent classification, FAISS vector search for local concept memory, and a custom LLM teacher fallback model.
 
-A production-oriented AI assistant architecture demonstrating how modern assistants are built beyond simple API wrappers.
+* **🧠 Smart Decision Flow:** FAISS Semantic Memory ➔ Local Knowledge Base ➔ Intent Classifier ➔ LLM Fallback (Teacher).
+* **🔄 Self-Improving Loop:** Automatically clusters unrecognized inputs, generates responses using LLM, and retrains locally.
+* **⚡ Hybrid Architecture:** Minimizes external API inference costs while maintaining high quality.
 
-### ✨ Features
+`Python` `TensorFlow (Keras)` `FAISS` `Sentence Transformers` `NLP` `Machine Learning`
 
-* 🧠 Local intent classification using traditional ML
-* 📚 Semantic vector memory powered by FAISS
-* 🔎 Retrieval-Augmented Generation (RAG)-style workflow
-* 🤝 LLM used as a learning/teaching system instead of full dependency
-* 🔄 Automatic retraining pipeline with intent discovery
-* ⚡ Optimized hybrid AI architecture for lower inference cost
-
-### 🛠 Tech
-
-`Python` `FAISS` `Sentence Transformers` `NLP` `Machine Learning`
-
-🔗 **Repository:**
-[https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
+🔗 **Repository:** [https://github.com/CODExGAMERZ/chatbot-ai](https://github.com/CODExGAMERZ/chatbot-ai)
 
 ---
 
-## 🧠 Python Code Autocomplete LLM (Built From Scratch)
+## 🧠 Python Code Autocomplete LLM (Decoder-Only GPT from Scratch)
+A GPT-style autoregressive Transformer trained entirely from scratch for Python code autocompletion.
 
-A GPT-style Transformer trained entirely from scratch for Python code autocompletion using real-world open-source repositories.
+* **⚙️ True GPT Decoder:** Implements causal self-attention mechanism, layer normalization, and causal masking.
+* **⚡ KV-Cache Support:** Uses stored key/value tensors during generation to achieve O(1) step incremental decoding speed.
+* **💾 Checkpoint System:** Includes a resume-safe local training framework capable of recovering from interrupts (Ctrl+C).
 
-### ✨ Features
+`PyTorch` `Tokenizers` `Deep Learning` `Language Modeling` `Transformers`
 
-* Decoder-only Transformer architecture
-* Custom Byte Pair Encoding (BPE) tokenizer
-* Causal masking implementation
-* End-to-end training pipeline
-* Trained on real GitHub repositories
-* Fully local inference (CPU compatible)
-
-### 🛠 Tech
-
-`PyTorch` `Transformers` `Deep Learning` `Tokenizer Training`
-
-🔗 **Repository:**
-[https://github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
+🔗 **Repository:** [https://github.com/CODExGAMERZ/Code-AutoComplete-LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 
 ---
 
-## 💻 C-Code-Assistant
+## ⚡ llm-advisor.dev – Hardware Rig Compatibility Calculator
+A precision advisor for running Large Language Models on local consumer rigs, workstations, servers, and Apple Silicon.
 
-An AI-powered C programming assistant designed to help users write, compile, debug, and execute C programs efficiently.
+* **🔬 Mode A (Model ➔ Specs):** Dynamic VRAM breakdown (Weights vs. KV Cache vs. Overhead) and tokens/sec estimates.
+* **🖥️ Mode B (Specs ➔ Model):** Ranks and filters which models fit your exact GPU, RAM, CPU class, and multi-GPU layout.
+* **🧮 Mode C (Custom Model):** Calculates custom parameter size, bits, and attention style overheads (GQA, MQA, MHA).
+* **🍏 macOS Unified Memory:** Tailored memory limits and command guides for Apple Silicon architectures.
 
-### ✨ Features
+`Vanilla JavaScript` `ES Modules (ESM)` `Math Estimation` `Web Design`
 
-* Real-time code compilation & execution
-* AI-assisted debugging support
-* Interactive coding environment
-* Error visualization system
-* Developer-focused UI/UX
-* Productivity-focused workflow enhancements
-
-### 🛠 Tech
-
-`Python` `JavaScript` `Compiler Integration` `Developer Tools`
-
-🔗 **Repository:**
-[https://github.com/CODExGAMERZ/C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant)
+🔗 **Repository:** [https://github.com/CODExGAMERZ/llm-advisor](https://github.com/CODExGAMERZ/llm-advisor)
 
 ---
 
-## 🌐 Crypto Website
+## 💻 C-Code-Assistant & 🐍 Python-Code-Assistant
+Fully local, AI-powered programming companion IDEs that serve code completions, linting, error fixing, and execution.
 
-A responsive cryptocurrency tracking platform featuring live market data and interactive charts.
+* **▶️ In-Browser Runners:** Runs code with sub-process execution timeouts (GCC/Python) directly from the browser.
+* **🔍 Live Code Linting:** Gutter marker visual integrations utilizing `cppcheck`/`gcc` for C and `flake8`/`py_compile` for Python.
+* **🔄 Quality-Retry Gate:** Real-time stream auditor that uses LLMs to self-correct code output if validations fail.
+* **🔒 Same-Origin Proxy:** Flask proxy routes all Ollama traffic, removing the need to expose Ollama origins.
 
-### ✨ Features
+`Python` `Flask` `JavaScript` `Compiler Integration` `Developer Tools` `Ollama`
 
-* 📊 Live cryptocurrency tracking
-* 📈 Interactive market charts
-* 🔍 Coin search system
-* 📱 Fully responsive UI
-* ⚡ Fast client-side rendering
+🔗 **C Assistant Repo:** [https://github.com/CODExGAMERZ/C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant)  
+🔗 **Python Assistant Repo:** [https://github.com/CODExGAMERZ/Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)
 
-### 🛠 Tech
+---
 
-`JavaScript` `REST APIs` `HTML5` `CSS3`
+## 🌐 TechVoids – Advanced Cryptocurrency Tracker
+A premium, dark-first obsidian glassmorphism crypto dashboard with dual-level caching and resilient fallback mechanisms.
 
-🔗 **Repository:**
-[https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)
+* **📊 Live Markets Portal:** Interactive spot lists, exchange tracking, growth categories, and institutional Bitcoin holdings.
+* **🧮 Double Caching:** Custom 5-minute local storage cache that protects user interactions from CoinGecko API rate limits.
+* **🔌 Resilient Fallbacks:** Dynamically launches a clean warning banner and loads cached mock data when API limit hits (429).
+* **📈 TradingView widgets:** Integrates high-fidelity interactive charting dashboards and quote widgets.
 
-🔗 **Live Demo:**
-[https://codexgamerz.github.io/crypto-website/](https://codexgamerz.github.io/crypto-website/)
+`JavaScript` `Chart.js` `TradingView API` `HTML5` `CSS3` `REST APIs`
+
+🔗 **Repository:** [https://github.com/CODExGAMERZ/crypto-website](https://github.com/CODExGAMERZ/crypto-website)  
+🔗 **Live Demo:** [https://codexgamerz.github.io/crypto-website/](https://codexgamerz.github.io/crypto-website/)
 
 ---
 
 ## ⏱️ FocusFlow – Productivity & Task Tracking App
+A lightweight task stopwatch and analytics app optimized for fluid micro-animations and zero state loss.
 
-A lightweight productivity application featuring independent timers, analytics, and optimized UI updates.
+* **⏲️ Per-Task Stopwatches:** Run independent timers concurrently without code blocks or timing delays.
+* **📊 Focus Analytics:** Automatically updates today's time, all-time records, and trending top-focus tasks.
+* **💾 Safe Tick Persistence:** Timer states are written instantly to `localStorage` on completion and updates, avoiding page reload resets.
 
-### ✨ Features
+`Vanilla JavaScript` `Performance Optimization` `UI Engineering` `Local Storage`
 
-* ⏲ Independent per-task timers
-* 📊 Real-time productivity analytics
-* 💾 LocalStorage persistence
-* ⚡ Optimized DOM rendering
-* 📱 Smooth responsive experience
+🔗 **Repository:** [https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)  
+🔗 **Live Demo:** [https://codexgamerz.github.io/focusflow/](https://codexgamerz.github.io/focusflow/)
 
-### 🛠 Tech
+---
 
-`Vanilla JavaScript` `Performance Optimization` `UI Engineering`
+## 🎬 CineFinder – Movie Discovery Engine
+A modern glassmorphic web catalog to discover film statistics, director crews, cast lineups, ratings, and box office charts.
 
-🔗 **Repository:**
-[https://github.com/CODExGAMERZ/focusflow](https://github.com/CODExGAMERZ/focusflow)
+* **🧩 Key Checker Wizard:** Evaluates and guides developers to set up OMDb credentials via UI helpers.
+* **🌟 Skeleton Loaders:** Synchronous loading card outlines that pulse to preserve layout dimensions.
+* **📱 Responsive Layout:** Grid layout built on vanilla flex and CSS layouts.
 
-🔗 **Live Demo:**
-[https://codexgamerz.github.io/focusflow/](https://codexgamerz.github.io/focusflow/)
+`JavaScript` `OMDb API` `CSS Glassmorphism` `HTML5`
+
+🔗 **Repository:** [https://github.com/CODExGAMERZ/Movie](https://github.com/CODExGAMERZ/Movie)
+
+---
+
+## 🔲 Custom QR Code Generator CLI
+An interactive and CLI utility to customize, generate, and preview QR codes.
+
+* **🎨 Wizard Setup:** Step-by-step console questionnaire for colors, sizes, borders, and image paths.
+* **🖥️ Console Previews:** Renders high-fidelity ASCII QR codes in the terminal before exporting PNG assets.
+* **🛠️ Script Integration:** Supports automation flags for silent generation.
+
+`Python` `qrcode` `Pillow` `CLI Design`
+
+🔗 **Repository:** [https://github.com/CODExGAMERZ/QrCODE-GENRATOR](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)
 
 ---
 
 # 🧠 Interests & Research Areas
 
 * Artificial Intelligence & Machine Learning
-* Natural Language Processing (NLP)
-* Hybrid AI Systems (ML + LLMs)
-* Transformers & Representation Learning
-* Semantic Search & Vector Databases
-* AI Agents & Intelligent Automation
-* System Design & Software Architecture
-* Efficient Local AI Systems
+* Deep Learning & Transformer Architectures
+* Hybrid AI Systems (Traditional ML + Vector DBs + LLMs)
+* Local AI & Inference Bandwidth Optimization
+* Developer Tooling & Static Analysis Integration
 
 ---
 
 # 🛠 Tech Stack
 
-## Languages
+### Languages
+`Python` `JavaScript (ES6+)` `C` `HTML5` `CSS3`
 
-* Python
-* JavaScript
-* C
-* HTML5 / CSS3
+### AI / Deep Learning
+`PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
-## AI / Machine Learning
-
-* PyTorch
-* TensorFlow / Keras
-* FAISS
-* Sentence Transformers
-* NLTK
-* spaCy
-* OpenAI APIs
-* Open-Source LLMs
-
-## Tools & Platforms
-
-* Git & GitHub
-* GitHub Pages
-* REST APIs
-* VS Code
-* Linux / WSL
-* Ollama
-
----
-
-# 📈 Current Focus
-
-Currently exploring:
-
-* LLM architecture & optimization
-* AI agents and autonomous workflows
-* Retrieval-Augmented Generation (RAG)
-* Local AI systems
-* Developer tooling powered by AI
-* Efficient inference pipelines
+### Tools & Infrastructures
+`Git` `GitHub Pages` `Flask` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
 # 📫 Connect With Me
 
-🐙 GitHub:
-[https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)
-
-📸 Instagram:
-[https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
+🐙 GitHub: [https://github.com/CODExGAMERZ](https://github.com/CODExGAMERZ)  
+📸 Instagram: [https://www.instagram.com/aryannotsinha](https://www.instagram.com/aryannotsinha)
 
 ---
 
-> “I enjoy building systems that are efficient, understandable, and genuinely useful — whether it's an AI model, a developer tool, or a scalable software architecture.”
-
-⭐ Feel free to explore my repositories and follow my journey into AI, software engineering, and intelligent systems.
+> “I enjoy building systems that are efficient, understandable, and genuinely useful — whether it's a custom-trained LLM, a developer tool, or a responsive caching client.”
