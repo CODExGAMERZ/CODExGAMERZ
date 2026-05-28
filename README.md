@@ -72,7 +72,7 @@ Fully local, AI-powered programming companion IDEs that serve code completions, 
 
 ---
 
-## 🌐 TechVoids – Advanced Cryptocurrency Tracker
+## 🌐 Kryptonix – Advanced Cryptocurrency Tracker
 A premium, dark-first obsidian glassmorphism crypto dashboard with dual-level caching and resilient fallback mechanisms.
 
 * **📊 Live Markets Portal:** Interactive spot lists, exchange tracking, growth categories, and institutional Bitcoin holdings.
