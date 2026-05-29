@@ -89,6 +89,21 @@ A fully local, AI-powered programming companion IDE that serves Python code comp
 
 ---
 
+## ⚡ VoltC (IDE & Simulator)
+A native desktop C/C++ IDE for Ubuntu Linux with an interactive in-browser simulator. Built as a single cohesive project, it bridges the gap between terminal text editors and bloated IDEs.
+
+* **💻 Unified Native App & Web Simulator:** Features a native Ubuntu app (FastAPI + Monaco Editor + PyWebView desktop shell) and a full-featured static web mockup with live simulation.
+* **🤖 VoltC v2 AI Debug Assistant:** Right-click compilation errors for plain-English translations and inline diff suggestions powered by any OpenAI-compatible API.
+* **🔌 Git Integration & clangd LSP:** Built-in Git panel supporting stage, commit, and diff views alongside a persistent PTY terminal and full auto-completion/diagnostics.
+* **📊 Stack & Heap Memory Visualizer:** Automatically scans and renders live memory structure diagrams with pointer arrows during execution.
+
+`Python` `FastAPI` `Monaco Editor` `C/C++` `Git` `LSP` `PyWebView` `WebSocket`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/VoltC](https://github.com/CODExGAMERZ/VoltC)  
+🔗 **Live Demo (Simulator):** [volt-c.vercel.app](https://volt-c.vercel.app/)
+
+---
+
 ## 💎 Kryptonix
 A premium, dark-first obsidian glassmorphism crypto dashboard with dual-level caching and resilient fallback mechanisms.
 
@@ -179,7 +194,7 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
 ### 🔧 Tools & Infrastructures
-`Git` `GitHub Pages` `Flask` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
+`Git` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
