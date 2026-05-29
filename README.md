@@ -89,10 +89,11 @@ A fully local, AI-powered programming companion IDE that serves Python code comp
 
 ---
 
-## ⚡ VoltC (IDE & Simulator)
-A native desktop C/C++ IDE for Ubuntu Linux with an interactive in-browser simulator. Built as a single cohesive project, it bridges the gap between terminal text editors and bloated IDEs.
+## ⚡ VoltC
+A native, lightweight C/C++ desktop IDE for Ubuntu Linux, showcased via an interactive simulator landing page.
 
-* **💻 Unified Native App & Web Simulator:** Features a native Ubuntu app (FastAPI + Monaco Editor + PyWebView desktop shell) and a full-featured static web mockup with live simulation.
+* **💻 Main Product (VoltC IDE):** A native Ubuntu desktop application combining a FastAPI backend, Monaco Editor, and a PyWebView shell to provide a lightning-fast native environment.
+* **🌐 Showcase Website:** A dedicated landing website featuring a fully interactive online IDE simulator for users to try the IDE features directly in-browser.
 * **🤖 VoltC v2 AI Debug Assistant:** Right-click compilation errors for plain-English translations and inline diff suggestions powered by any OpenAI-compatible API.
 * **🔌 Git Integration & clangd LSP:** Built-in Git panel supporting stage, commit, and diff views alongside a persistent PTY terminal and full auto-completion/diagnostics.
 * **📊 Stack & Heap Memory Visualizer:** Automatically scans and renders live memory structure diagrams with pointer arrows during execution.
@@ -100,7 +101,7 @@ A native desktop C/C++ IDE for Ubuntu Linux with an interactive in-browser simul
 `Python` `FastAPI` `Monaco Editor` `C/C++` `Git` `LSP` `PyWebView` `WebSocket`
 
 🔗 **Repository:** [github.com/CODExGAMERZ/VoltC](https://github.com/CODExGAMERZ/VoltC)  
-🔗 **Live Demo (Simulator):** [volt-c.vercel.app](https://volt-c.vercel.app/)
+🔗 **Live Demo (Showcase):** [volt-c.vercel.app](https://volt-c.vercel.app/)
 
 ---
 
