@@ -21,6 +21,19 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
+## 👁️ DataPrism
+An offline VS Code extension for instant, local-first Exploratory Data Analysis (EDA) and data quality profiling of CSV and JSON datasets.
+
+* **📋 Tabbed Interface Panels:** Sortable preview grid with null highlights, comprehensive summary metrics, correlation matrices (Pearson/Spearman), data quality grading logs, and column-level insights.
+* **🧮 TypeScript Math Engine:** Offline mathematical computations for descriptive statistics, IQR outlier profiling, type consistency audits, and a 0–100 dataset health score.
+* **⚙️ Robust Offline Parsing:** Scans buffers, handles BOM encodings, and flattens nested JSON structures automatically up to 1-level deep.
+
+`VS Code Extension API` `TypeScript` `React` `Vite` `EDA` `Statistics`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/DataPrism](https://github.com/CODExGAMERZ/DataPrism)
+
+---
+
 ## 📊 ModelSight
 A lightweight, local-first VS Code extension that turns your editor into a real-time interactive machine learning dashboard and decodes runtime training crashes into plain-English troubleshooting checklists.
 
@@ -203,13 +216,13 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 # 🛠️ Tech Stack
 
 ### 💻 Languages
-`Python` `JavaScript (ES6+)` `C` `HTML5` `CSS3`
+`Python` `TypeScript` `JavaScript (ES6+)` `C` `HTML5` `CSS3`
 
 ### 🧠 AI / Deep Learning
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
 ### 🔧 Tools & Infrastructures
-`Git` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
+`Git` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
