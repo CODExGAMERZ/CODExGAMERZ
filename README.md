@@ -21,6 +21,20 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
+## 📊 ModelSight
+A lightweight, local-first VS Code extension that turns your editor into a real-time interactive machine learning dashboard and decodes runtime training crashes into plain-English troubleshooting checklists.
+
+* **📈 Real-Time Telemetry:** Tracks training loss, accuracy, learning rate, GPU core utilization (NVIDIA), and system RAM footprint in real-time inside your editor.
+* **🚨 Smart Overfitting Detector:** Instantly detects validation anomalies and flags high overfitting risk with glowing visual indicators and suggestions.
+* **🔍 Interactive Error Explainer:** Captures standard Python tracebacks from training script crashes and translates them into actionable troubleshooting checklists.
+* **🗃️ Run History & Export:** Saves the last 10 runs in your workspace state, allows direct comparison overlays, and exports training summaries as self-contained HTML reports.
+
+`VS Code Extension API` `Python` `JavaScript` `HTML5 / CSS3` `Telemetry` `nvidia-smi`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/Model-Sight](https://github.com/CODExGAMERZ/Model-Sight)
+
+---
+
 ## 🤖 Hybrid AI Chatbot
 A production-oriented AI assistant architecture demonstrating how modern assistants are built beyond simple API wrappers. It uses classical NLP/Keras for intent classification, FAISS vector search for local concept memory, and a custom LLM teacher fallback model.
 
