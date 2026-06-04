@@ -21,6 +21,19 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
+## 🧠 DataMind AI
+A secure, client-first Android platform combining AI research paper summaries, smart dataset profiling, auto-EDA, and coding/interview assistants.
+
+* **🔒 On-Device Privacy & BYOG:** Direct integration with the Google Generative AI SDK (Gemini API) supporting user-provided API keys (BYOG) with secure masking, locking, and 100% data ownership.
+* **🔬 Research & Dataset Intelligence:** Generates structured research summaries, beginner-friendly analogies (EL12), flashcards, automated EDA summaries, outlier profiling, and custom data visualizations.
+* **🎮 Gamified Sync Engine:** Features personalized learning tracking, XP, level progression, and achievements synced directly to a Supabase cloud database via lightweight REST requests.
+
+`Android` `Kotlin` `Jetpack Compose` `Gemini API` `Supabase` `EDA` `Material 3`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/DataMind-ai](https://github.com/CODExGAMERZ/DataMind-ai)
+
+---
+
 ## 👁️ DataPrism
 An offline VS Code extension for instant, local-first Exploratory Data Analysis (EDA) and data quality profiling of CSV and JSON datasets.
 
@@ -216,13 +229,13 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 # 🛠️ Tech Stack
 
 ### 💻 Languages
-`Python` `TypeScript` `JavaScript (ES6+)` `C` `HTML5` `CSS3`
+`Python` `TypeScript` `JavaScript (ES6+)` `Kotlin` `C` `HTML5` `CSS3`
 
 ### 🧠 AI / Deep Learning
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
 ### 🔧 Tools & Infrastructures
-`Git` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
+`Git` `Android` `Jetpack Compose` `Supabase` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
