@@ -21,6 +21,19 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
+## ⚙️ scaffold-agent-skill
+An interactive, multi-platform CLI utility to scaffold AI agent skills, plugins, and production-ready server stubs from a single specification.
+
+* **🛠️ Multi-Platform Scaffolding:** Generates required configurations and code stubs for Claude Code plugins, OpenAI Custom GPT Actions, OpenClaw Gateway Skills, and Google ADK / Gemini Agents.
+* **🔒 Built-in Security & Robustness:** Implements path traversal guards, safe string escaping, and identifier validations (character constraints, length checks, collision resolution).
+* **⚡ Production-Ready Server Stub:** Generates Express server stubs with security headers (Helmet), CORS support, request schema validation, and dependency management.
+
+`Node.js` `TypeScript` `Claude Code` `OpenAI` `Gemini` `CLI` `Security`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/create-agent-skill](https://github.com/CODExGAMERZ/create-agent-skill)
+
+---
+
 ## 🧠 DataMind AI
 A secure, client-first Android platform combining AI research paper summaries, smart dataset profiling, auto-EDA, and coding/interview assistants.
 
@@ -235,7 +248,7 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
 ### 🔧 Tools & Infrastructures
-`Git` `Android` `Jetpack Compose` `Supabase` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
+`Git` `Node.js` `Android` `Jetpack Compose` `Supabase` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
