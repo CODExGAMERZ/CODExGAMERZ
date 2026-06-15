@@ -21,6 +21,19 @@ I enjoy exploring how modern systems work internally — from **Transformers and
 
 # 🚀 Featured Projects
 
+## 👁️ LogicScope
+A real-time DSA & OOP visualizer extension for VS Code that generates interactive control flows, UML diagrams, and recursion trees as you type.
+
+* **📊 Real-Time Visualizations:** Renders control flow flowcharts, UML class hierarchies, and recursion stack tree diagrams instantly from Python and JavaScript files.
+* **🔒 Offline Security:** Runs entirely locally using WebAssembly-compiled Tree-sitter parsers to ensure code privacy and zero external server dependencies.
+* **🧠 Optional AI Explanations:** Pair the visualizer with secure, BYOK (Gemini/Groq API) intelligence overlays for instant complexity breakdowns and conceptual reviews.
+
+`VS Code Extension` `TypeScript` `WebAssembly` `Tree-sitter` `Mermaid.js` `Visualizer`
+
+🔗 **Repository:** [github.com/CODExGAMERZ/LogicScope](https://github.com/CODExGAMERZ/LogicScope)
+
+---
+
 ## ⚙️ scaffold-agent-skill
 An interactive, multi-platform CLI utility to scaffold AI agent skills, plugins, and production-ready server stubs from a single specification.
 
@@ -248,7 +261,7 @@ An interactive and CLI utility to customize, generate, and preview QR codes.
 `PyTorch` `TensorFlow / Keras` `FAISS` `Sentence Transformers` `NLP` `Ollama` `Tokenizers`
 
 ### 🔧 Tools & Infrastructures
-`Git` `Node.js` `Android` `Jetpack Compose` `Supabase` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
+`Git` `Node.js` `WebAssembly` `Tree-sitter` `Android` `Jetpack Compose` `Supabase` `React` `Vite` `GitHub Pages` `Flask` `FastAPI` `PyWebView` `WebSockets` `MinGW / GCC` `cppcheck` `flake8` `REST APIs`
 
 ---
 
