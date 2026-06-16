@@ -22,11 +22,11 @@ I design and develop **performance-first developer tools, machine learning pipel
 <summary><b>🛠️ Developer Tools & Extensions</b></summary>
 <br>
 
-* **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** — VS Code extension rendering real-time DSA recursion trees, Mermaid.js flowcharts, and UML class hierarchies from code using local WebAssembly Tree-sitter parsers.
+* **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/)) — VS Code extension rendering real-time DSA recursion trees, Mermaid.js flowcharts, and UML class hierarchies from code using local WebAssembly Tree-sitter parsers.
 * **[excel-to-word-report-generator](https://github.com/CODExGAMERZ/excel-to-word-report-generator)** — Automated data analysis tool that profiles multi-sheet Excel files and builds beautifully formatted Word (.docx) executive reports containing custom matplotlib charts.
 * **[scaffold-agent-skill](https://github.com/CODExGAMERZ/create-agent-skill)** — Multi-platform CLI scaffolding utility that generates secure stubs for Claude Code, OpenAI Actions, and Gemini Agents.
-* **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** — Local-first dataset profiler extension for CSV and JSON files with built-in descriptive stats and column-level quality grading.
-* **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
+* **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** ([Live Demo](https://dataprismext.vercel.app/)) — Local-first dataset profiler extension for CSV and JSON files with built-in descriptive stats and column-level quality grading.
+* **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/)) — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
 * **[VoltC](https://github.com/CODExGAMERZ/VoltC)** — Lightweight native C/C++ IDE wrapper for Ubuntu built on FastAPI and Monaco Editor.
 * **[C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant) & [Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)** — Same-origin Flask proxy IDE companions utilizing local Ollama completions and compilation gates.
 * **[QR Code CLI](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)** — Interactive Python CLI wizard utility with terminal ASCII previews.
