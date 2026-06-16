@@ -23,6 +23,7 @@ I design and develop **performance-first developer tools, machine learning pipel
 <br>
 
 * **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** — VS Code extension rendering real-time DSA recursion trees, Mermaid.js flowcharts, and UML class hierarchies from code using local WebAssembly Tree-sitter parsers.
+* **[excel-to-word-report-generator](https://github.com/CODExGAMERZ/excel-to-word-report-generator)** — Automated data analysis tool that profiles multi-sheet Excel files and builds beautifully formatted Word (.docx) executive reports containing custom matplotlib charts.
 * **[scaffold-agent-skill](https://github.com/CODExGAMERZ/create-agent-skill)** — Multi-platform CLI scaffolding utility that generates secure stubs for Claude Code, OpenAI Actions, and Gemini Agents.
 * **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** — Local-first dataset profiler extension for CSV and JSON files with built-in descriptive stats and column-level quality grading.
 * **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
@@ -69,11 +70,3 @@ I design and develop **performance-first developer tools, machine learning pipel
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## 📊 Git Metrics
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=CODExGAMERZ&show_icons=true&hide_border=true&bg_color=09090b&title_color=6366f1&icon_color=6366f1&text_color=a1a1aa" alt="Aryan's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODExGAMERZ&theme=dark&hide_border=true&background=09090b&ring=6366f1&fire=10b981&currStreakNum=f4f4f5&sideNums=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" alt="Aryan's Streak Stats" />
-</p>
