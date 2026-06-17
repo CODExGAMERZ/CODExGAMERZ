@@ -23,7 +23,7 @@ I design and develop **performance-first developer tools, machine learning pipel
 <br>
 
 * **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/)) — VS Code extension rendering real-time DSA recursion trees, Mermaid.js flowcharts, and UML class hierarchies from code using local WebAssembly Tree-sitter parsers.
-* **[excel-to-word-report-generator](https://github.com/CODExGAMERZ/excel-to-word-report-generator)** — Automated data analysis tool that profiles multi-sheet Excel files and builds beautifully formatted Word (.docx) executive reports containing custom matplotlib charts.
+* **[LinguistReport](https://github.com/CODExGAMERZ/LinguistReport)** — Advanced Natural Language Processing (NLP) text analysis suite and automated publication-quality Word (.docx) report generator driven by Python.
 * **[scaffold-agent-skill](https://github.com/CODExGAMERZ/create-agent-skill)** — Multi-platform CLI scaffolding utility that generates secure stubs for Claude Code, OpenAI Actions, and Gemini Agents.
 * **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** ([Live Demo](https://dataprismext.vercel.app/)) — Local-first dataset profiler extension for CSV and JSON files with built-in descriptive stats and column-level quality grading.
 * **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/)) — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
