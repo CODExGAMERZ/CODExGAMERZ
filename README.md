@@ -37,6 +37,7 @@ I design and develop **performance-first developer tools, machine learning pipel
 <summary><b>🤖 Artificial Intelligence & Machine Learning</b></summary>
 <br>
 
+* **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)** — Local-first Retrieval-Augmented Generation (RAG) CLI and Python engine for indexing local files, resolving entity graph relationships, and performing local Q&A with citations.
 * **[DataMind AI](https://github.com/CODExGAMERZ/DataMind-ai)** — Client-first Android app for research paper summarization and gamified stats sync using Jetpack Compose and Supabase.
 * **[Hybrid AI Chatbot](https://github.com/CODExGAMERZ/chatbot-ai)** — Self-improving chatbot pipeline merging FAISS semantic memory with intent classification and LLM fallbacks.
 * **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)** — GPT-style autoregressive Transformer code completer with causal self-attention and KV-caching trained from scratch.
