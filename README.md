@@ -71,3 +71,17 @@ I design and develop **performance-first developer tools, machine learning pipel
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
+---
+
+## 📊 GitHub Metrics
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true" alt="Aryan's GitHub Stats" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ashutoshgwarpal/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODExGAMERZ&theme=dark&hide_border=true&ring=6366f1&fire=10b981" alt="Aryan's Streak Stats" />
+  </a>
+</p>
+
