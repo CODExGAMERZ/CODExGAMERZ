@@ -29,6 +29,7 @@ I design and develop **performance-first developer tools, machine learning pipel
 * **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/)) — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
 * **[VoltC](https://github.com/CODExGAMERZ/VoltC)** — Lightweight native C/C++ IDE wrapper for Ubuntu built on FastAPI and Monaco Editor.
 * **[C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant) & [Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)** — Same-origin Flask proxy IDE companions utilizing local Ollama completions and compilation gates.
+* **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)** — Custom high-performance Windows fork of VS Code (Code - OSS) with built-in KeyCode Ollama Autocomplete extension for offline inline completions.
 * **[QR Code CLI](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)** — Interactive Python CLI wizard utility with terminal ASCII previews.
 
 </details>
