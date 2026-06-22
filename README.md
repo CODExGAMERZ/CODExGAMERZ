@@ -50,6 +50,7 @@ I design and develop **performance-first developer tools, machine learning pipel
 <br>
 
 * **[llm-advisor.dev](https://github.com/CODExGAMERZ/llm-advisor)** — Static memory calculator and precision hardware advisor for hosting open-source LLMs locally.
+* **[VoltC-Website](https://github.com/CODExGAMERZ/VoltC-Website)** ([Live Demo](https://volt-c.vercel.app/)) — Obsidian glassmorphism landing page featuring an interactive, in-browser C/C++ online IDE simulator.
 * **[Kryptonix](https://github.com/CODExGAMERZ/crypto-website)** — Dark obsidian glassmorphic crypto dashboard backed by dual-level localStorage caching.
 * **[FocusFlow](https://github.com/CODExGAMERZ/focusflow)** — Lightweight multi-timer productivity dashboard with persistent state retention.
 * **[WebNotes](https://github.com/CODExGAMERZ/WebNotes)** — Interactive 3D carousel note reader and markdown parser.
