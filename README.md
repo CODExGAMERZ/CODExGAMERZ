@@ -6,45 +6,52 @@
   <a href="https://www.instagram.com/aryannotsinha"><img src="https://img.shields.io/badge/Instagram-aryannotsinha-E4405F?style=flat-square&logo=instagram" alt="Instagram" /></a>
 </p>
 
-I design and build **performance-first developer tools, local machine learning pipelines, and hybrid AI systems** optimized for security, execution speed, and absolute data privacy.
+### AI Engineer & Systems Developer
+I specialize in building **performance-first developer tooling, local-first machine learning pipelines, and hybrid AI systems** optimized for low-latency execution, hardware efficiency, and absolute data privacy.
 
 ---
 
-## ⚡ Core Specializations
+## ⚡ Technical Core
 
-* **🧠 Deep Learning & NLP** — Custom Transformer architectures, causal self-attention, KV-caching, and BPE tokenizer training.
-* **🤖 Local AI & RAG** — Offline workflows using LangGraph agent pipelines, local Ollama endpoints, and vector search (Qdrant).
-* **🛠️ Developer Tooling** — VS Code extensions, custom compiler runners, and custom editor forks (Electron/Code-OSS).
-
----
-
-## 🚀 Flagship Builds
-
-* **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)**  
-  *A GPT-style multilingual code autocompletion Transformer (Python/C/Java) trained from scratch.*  
-  `PyTorch` `Transformers` `FlashAttention` `BPE Tokenizer`
-* **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)**  
-  *A local-first, privacy-focused hybrid RAG engine and CLI for document databases & Obsidian Vaults.*  
-  `Python` `LangGraph` `Qdrant` `Ollama` `SQLite`
-* **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)**  
-  *A customized open-source distribution of VS Code (Code - OSS) built for Windows with built-in AI autocomplete.*  
-  `TypeScript` `Electron` `Node.js` `Ollama`
-* **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/))  
-  *A real-time DSA visualizer VS Code extension rendering Mermaid diagrams and call stacks directly in the gutter.*  
-  `TypeScript` `WebAssembly` `Tree-sitter` `Mermaid.js`
-* **[VoltC](https://github.com/CODExGAMERZ/VoltC)**  
-  *A native desktop C/C++ IDE wrapper for Linux desktops featuring sub-process compiler pipelines.*  
-  `Python` `FastAPI` `Monaco Editor` `PyWebView`
-
-> 📂 **More Projects:** `LinguistReport` • `DataPrism` • `ModelSight` • `scaffold-agent-skill` • `DataMind AI` • `C-Code-Assistant` • `Python-Code-Assistant` • `llm-advisor.dev` • `VoltC-Website` • `Kryptonix` • `FocusFlow` • `WebNotes` • `CineFinder` • `QR Code CLI`. Find full details on my **[💻 Live Portfolio](https://codexgamerz.github.io)**.
+* **🧠 Deep Learning & Transformers** — Autoregressive decoder-only Transformer design (causal self-attention, rotary positional embeddings, KV-caching, FlashAttention) trained from scratch.
+* **🤖 Retrieval-Augmented Generation (RAG)** — Intent-driven multi-agent workflows (LangGraph), vector similarity databases (Qdrant), and Reciprocal Rank Fusion (RRF) algorithms.
+* **🛠️ Systems & Developer Tooling** — Abstract Syntax Tree (AST) parsing with WebAssembly Tree-sitter, VS Code extension development, and custom Electron/Code-OSS IDE compilation.
 
 ---
 
-## 🛠️ Technical Stack
+## 🚀 Selected Flagship Projects
+
+### **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)**  
+*Multilingual GPT-style autocomplete model trained from scratch supporting Python, C, and Java.*  
+* **Architecture**: Integrated Rotary Embeddings (RoPE), GeGLU gating, and soft logit capping into a causal decoder framework.
+* **Optimization**: Enabled FlashAttention (SDPA) and dynamic KV-caching to accelerate inference speeds on consumer GPUs.
+* **Stack**: `PyTorch` • `Transformers` • `FlashAttention` • `BPE Tokenizer` • `DDP`
+
+### **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)**  
+*Privacy-first local search engine transforming directories and Obsidian vaults into context-aware systems.*  
+* **Ingestion**: Engineered a debounced filesystem watcher parsing markdown links and headers in real-time.
+* **Retrieval**: Fused vector search scores with SQLite structural centrality metrics using Reciprocal Rank Fusion (RRF).
+* **Stack**: `Python` • `LangGraph` • `Qdrant` • `Ollama` • `SQLite`
+
+### **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)**  
+*A custom Windows distribution of VS Code (Code - OSS) with a built-in AI autocomplete companion.*  
+* **Built-in Extension**: Developed a custom completion provider utilizing Fill-in-the-Middle (FIM) prompt formatting.
+* **Latency**: Optimized client-side response paths through request debouncing and predictive local caching.
+* **Stack**: `TypeScript` • `Electron` • `Node.js` • `Ollama`
+
+### **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/))  
+*Real-time code visualizer rendering DSA recursion trees and UML diagrams as you type.*  
+* **Analysis**: Developed an offline-first parsing engine running WebAssembly-compiled Tree-sitter AST queries in-browser.
+* **Visualization**: Transformed code structures dynamically into interactive Mermaid.js diagrams.
+* **Stack**: `TypeScript` • `WebAssembly` • `Tree-sitter` • `Mermaid.js` • `Extension API`
+
+---
+
+## 🛠️ Technology Stack
 
 ```
 ┌──────────────────┬────────────────────────────────────────────────────────────────────────┐
-│ Languages        │ Python • TypeScript • JavaScript • Kotlin • C • HTML5 • CSS3           │
+│ Languages        │ Python • TypeScript • JavaScript (ES6+) • Kotlin • C • HTML5 • CSS3    │
 ├──────────────────┼────────────────────────────────────────────────────────────────────────┤
 │ AI & ML          │ PyTorch • TensorFlow • FAISS • SentenceTransformers • LangGraph • LLMs │
 ├──────────────────┼────────────────────────────────────────────────────────────────────────┤
@@ -72,3 +79,7 @@ I design and build **performance-first developer tools, local machine learning p
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <i>Explore all 20+ projects and live web simulators on my <b><a href="https://codexgamerz.github.io">Live Portfolio</a></b>.</i>
+</p>
