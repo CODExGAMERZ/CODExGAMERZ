@@ -1,89 +1,107 @@
 # ✦ Aryan (CODExGAMERZ)
 
-### AI Engineer & Software Builder
-I design and develop **performance-first developer tools, machine learning pipelines, and hybrid AI systems** focused on security, speed, and local execution.
+<p align="left">
+  <a href="https://codexgamerz.github.io"><img src="https://img.shields.io/badge/Live%20Portfolio-codexgamerz.github.io-6366f1?style=flat-square&logo=firefox" alt="Portfolio" /></a>
+  <a href="https://github.com/CODExGAMERZ"><img src="https://img.shields.io/badge/GitHub-CODExGAMERZ-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+  <a href="https://www.instagram.com/aryannotsinha"><img src="https://img.shields.io/badge/Instagram-aryannotsinha-E4405F?style=flat-square&logo=instagram" alt="Instagram" /></a>
+</p>
 
-[💻 Live Portfolio](https://codexgamerz.github.io) &nbsp;•&nbsp; [🐙 GitHub](https://github.com/CODExGAMERZ) &nbsp;•&nbsp; [📸 Instagram](https://www.instagram.com/aryannotsinha)
+I design and build **performance-first developer tools, local machine learning pipelines, and hybrid AI systems** optimized for security, execution speed, and absolute data privacy. My work focuses on moving heavy computational workloads—from Transformer models and AST parsing to data profiling—directly to the user's local hardware.
 
 ---
 
 ## ⚡ Core Specializations
 
-* **🧠 Deep Learning & NLP** — Custom Transformer architectures, autoregressive text generation, and local tokenizer training.
-* **🤖 LLM Integration & Local Inference** — Building offline-first AI workflows using Ollama, FAISS semantic memory, and direct API integrations.
-* **🛠️ Developer Tooling & Extensibility** — IDE extensions for VS Code, custom language server integrations (LSP), and parsing engines.
-* **⚙️ Desktop & Hybrid Systems** — Building native desktop shell wrappers (PyWebView) backed by robust local APIs (FastAPI/Flask).
+* **🧠 Deep Learning & NLP** — Training custom Transformer architectures from scratch, causal self-attention mechanisms, KV-caching optimizations, and BPE tokenizer vocab training.
+* **🤖 Local AI & RAG Orchestration** — Designing privacy-first offline workflows using LangGraph agent pipelines, local Ollama endpoints, and RRF-fused database retrievals (Qdrant & SQLite).
+* **🛠️ Developer Tooling** — VS Code extensions, custom compiler runners, and custom forks of standard editor shells (Electron/Code-OSS).
+* **⚙️ Systems Integration** — Building low-latency backend APIs (FastAPI/Flask) packaged inside responsive desktop shells (PyWebView/Monaco Editor).
 
 ---
 
-## 🚀 Featured Builds
+## 🚀 Featured Engineering Projects
 
-<details open>
-<summary><b>🛠️ Developer Tools & Extensions</b></summary>
-<br>
+### 🤖 Local AI & Machine Learning
+* **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)**  
+  *A GPT-style multilingual code autocompletion Transformer (Python/C/Java) trained entirely from scratch.*  
+  `PyTorch` `Transformers` `FlashAttention` `BPE Tokenizer` `GPU Acceleration`  
+  * Manually implemented causal self-attention, rotary embeddings (RoPE), KV-caching, and logit soft-capping.
+  * Packaged self-contained checkpoints embedding the token vocabulary directly into PyTorch weights.
+* **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)**  
+  *A local-first, privacy-focused hybrid RAG engine and CLI for document databases & Obsidian Vaults.*  
+  `Python` `LangGraph` `Qdrant` `Ollama` `SQLite`  
+  * Combines vector similarity with graph-like centrality scoring using Reciprocal Rank Fusion (RRF).
+  * Implemented an agentic self-correction loop checking prompt context against retrieval groundings.
+* **[Hybrid AI Chatbot](https://github.com/CODExGAMERZ/chatbot-ai)**  
+  *A self-improving offline conversation pipeline matching semantic memory with intent classifiers.*  
+  `Python` `TensorFlow` `FAISS` `SentenceTransformers`
+* **[DataMind AI](https://github.com/CODExGAMERZ/DataMind-ai)**  
+  *An Android assistant app for compiling research summaries and gamified statistical insights.*  
+  `Kotlin` `Jetpack Compose` `Gemini API` `Supabase`
 
-* **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/)) — VS Code extension rendering real-time DSA recursion trees, Mermaid.js flowcharts, and UML class hierarchies from code using local WebAssembly Tree-sitter parsers.
-* **[LinguistReport](https://github.com/CODExGAMERZ/LinguistReport)** — Advanced Natural Language Processing (NLP) text analysis suite and automated publication-quality Word (.docx) report generator driven by Python.
-* **[scaffold-agent-skill](https://github.com/CODExGAMERZ/create-agent-skill)** — Multi-platform CLI scaffolding utility that generates secure stubs for Claude Code, OpenAI Actions, and Gemini Agents.
-* **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** ([Live Demo](https://dataprismext.vercel.app/)) — Local-first dataset profiler extension for CSV and JSON files with built-in descriptive stats and column-level quality grading.
-* **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/)) — Real-time ML training monitor and interactive runtime error explainer extension for VS Code.
-* **[VoltC](https://github.com/CODExGAMERZ/VoltC)** — Lightweight native C/C++ IDE wrapper for Ubuntu built on FastAPI and Monaco Editor.
-* **[C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant) & [Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)** — Same-origin Flask proxy IDE companions utilizing local Ollama completions and compilation gates.
-* **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)** — Custom high-performance Windows fork of VS Code (Code - OSS) with built-in KeyCode Ollama Autocomplete extension for offline inline completions.
-* **[QR Code CLI](https://github.com/CODExGAMERZ/QrCODE-GENRATOR)** — Interactive Python CLI wizard utility with terminal ASCII previews.
+### 🛠️ Developer Tools & IDEs
+* **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)**  
+  *A customized open-source distribution of VS Code (Code - OSS) built for Windows.*  
+  `TypeScript` `Electron` `Node.js` `Ollama`  
+  * Features a built-in inline autocomplete companion engine with debounced local telemetry and FIM prompt construction.
+* **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/))  
+  *A real-time DSA visualizer extension rendering Mermaid diagrams and call stacks directly in the gutter.*  
+  `VS Code Extension` `TypeScript` `WebAssembly` `Tree-sitter` `Mermaid.js`
+* **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** ([Live Demo](https://dataprismext.vercel.app/))  
+  *An offline tabbed dataset profiler and visual descriptive statistics engine for CSV and JSON.*  
+  `VS Code Extension` `TypeScript` `React` `Vite`
+* **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/))  
+  *A live telemetry dashboard and runtime error explainer extension for PyTorch and Keras.*  
+  `VS Code Extension` `Python` `WebSockets` `HTML5`
+* **[VoltC](https://github.com/CODExGAMERZ/VoltC)**  
+  *A native desktop C/C++ IDE wrapper for Linux desktops featuring sub-process compiler pipelines.*  
+  `Python` `FastAPI` `Monaco Editor` `PyWebView`
+* **[C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant) & [Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)**  
+  *Local IDE shells with compilation checkpoints, flake8/cppcheck linting, and LLM self-correcting logic.*  
+  `Flask` `Ollama` `GCC` `Python`
 
-</details>
-
-<details>
-<summary><b>🤖 Artificial Intelligence & Machine Learning</b></summary>
-<br>
-
-* **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)** — Local-first Retrieval-Augmented Generation (RAG) CLI and Python engine for indexing local files, resolving entity graph relationships, and performing local Q&A with citations.
-* **[DataMind AI](https://github.com/CODExGAMERZ/DataMind-ai)** — Client-first Android app for research paper summarization and gamified stats sync using Jetpack Compose and Supabase.
-* **[Hybrid AI Chatbot](https://github.com/CODExGAMERZ/chatbot-ai)** — Self-improving chatbot pipeline merging FAISS semantic memory with intent classification and LLM fallbacks.
-* **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)** — Multilingual GPT-style autoregressive Transformer code completer supporting Python, C, and Java with causal self-attention, KV-caching, and GPU acceleration, trained from scratch.
-
-</details>
-
-<details>
-<summary><b>🌐 Web Applications & Systems</b></summary>
-<br>
-
-* **[llm-advisor.dev](https://github.com/CODExGAMERZ/llm-advisor)** — Static memory calculator and precision hardware advisor for hosting open-source LLMs locally.
-* **[VoltC-Website](https://github.com/CODExGAMERZ/VoltC-Website)** ([Live Demo](https://volt-c.vercel.app/)) — Obsidian glassmorphism landing page featuring an interactive, in-browser C/C++ online IDE simulator.
-* **[Kryptonix](https://github.com/CODExGAMERZ/crypto-website)** — Dark obsidian glassmorphic crypto dashboard backed by dual-level localStorage caching.
-* **[FocusFlow](https://github.com/CODExGAMERZ/focusflow)** — Lightweight multi-timer productivity dashboard with persistent state retention.
-* **[WebNotes](https://github.com/CODExGAMERZ/WebNotes)** — Interactive 3D carousel note reader and markdown parser.
-* **[CineFinder](https://github.com/CODExGAMERZ/Movie)** — Glassmorphic movie analytics search portal.
-
-</details>
+### 🌐 Web Apps & Utilities
+* **[llm-advisor.dev](https://github.com/CODExGAMERZ/llm-advisor)** ([Live Demo](https://llm-advisor-ai.vercel.app/))  
+  *A static hardware memory calculator estimating VRAM requirements for local LLM weights & KV-cache.*  
+  `JavaScript (ESM)` `CSS Grid` `Hardware Modeling`
+* **[VoltC Showcase](https://github.com/CODExGAMERZ/VoltC-Website)** ([Live Demo](https://volt-c.vercel.app/))  
+  *An interactive landing page hosting an online, sandboxed C simulator compiled client-side.*  
+  `HTML5` `Vanilla CSS` `Monaco Editor` `Vercel`
+* **[Kryptonix](https://github.com/CODExGAMERZ/crypto-website)** ([Live Demo](https://kryptonix-tv.vercel.app/))  
+  *An obsidian-themed crypto portal caching API calls locally with resilient fallback streams.*  
+  `JavaScript` `TradingView Widgets` `localStorage Caching`
 
 ---
 
 ## 🛠️ Technical Stack
 
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│  Languages       │ Python, TypeScript, JavaScript (ES6+), Kotlin, C    │
-├──────────────────┼─────────────────────────────────────────────────────┤
-│  AI & ML         │ PyTorch, TensorFlow, FAISS, SentenceTransformers    │
-├──────────────────┼─────────────────────────────────────────────────────┤
-│  Tools & Infra   │ Git, Node.js, WebAssembly, Supabase, React, Vite,   │
-│                  │ Jetpack Compose, FastAPI, Flask, GCC, WebSockets    │
-└────────────────────────────────────────────────────────────────────────┘
+┌──────────────────┬────────────────────────────────────────────────────────────────────────┐
+│ Languages        │ Python • TypeScript • JavaScript (ES6+) • Kotlin • C • HTML5 • CSS3    │
+├──────────────────┼────────────────────────────────────────────────────────────────────────┤
+│ AI & ML          │ PyTorch • TensorFlow • FAISS • SentenceTransformers • LangGraph • LLMs │
+├──────────────────┼────────────────────────────────────────────────────────────────────────┤
+│ Developer Tools  │ VS Code Extension API • WebAssembly • Electron • Monaco Editor • ASTs   │
+├──────────────────┼────────────────────────────────────────────────────────────────────────┤
+│ Backend & Infra  │ Node.js • FastAPI • Flask • SQLite • Qdrant • Supabase • WebSockets    │
+└──────────────────┴────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## 📊 GitHub Metrics
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true" alt="Aryan's GitHub Stats" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/ashutoshgwarpal/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODExGAMERZ&theme=dark&hide_border=true&ring=6366f1&fire=10b981" alt="Aryan's Streak Stats" />
-  </a>
-</p>
-
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/ashutoshgwarpal/github-readme-streak-stats">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODExGAMERZ&theme=dark&hide_border=true&background=0D0D11&ring=6366f1&fire=10b981&currStreakNum=F4F4F5&sideNums=A1A1AA&sideLabels=A1A1AA&dates=A1A1AA" alt="Aryan's Streak Stats" />
+      </a>
+    </td>
+  </tr>
+</table>
