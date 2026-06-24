@@ -6,70 +6,37 @@
   <a href="https://www.instagram.com/aryannotsinha"><img src="https://img.shields.io/badge/Instagram-aryannotsinha-E4405F?style=flat-square&logo=instagram" alt="Instagram" /></a>
 </p>
 
-I design and build **performance-first developer tools, local machine learning pipelines, and hybrid AI systems** optimized for security, execution speed, and absolute data privacy. My work focuses on moving heavy computational workloads—from Transformer models and AST parsing to data profiling—directly to the user's local hardware.
+I design and build **performance-first developer tools, local machine learning pipelines, and hybrid AI systems** optimized for security, execution speed, and absolute data privacy.
 
 ---
 
 ## ⚡ Core Specializations
 
-* **🧠 Deep Learning & NLP** — Training custom Transformer architectures from scratch, causal self-attention mechanisms, KV-caching optimizations, and BPE tokenizer vocab training.
-* **🤖 Local AI & RAG Orchestration** — Designing privacy-first offline workflows using LangGraph agent pipelines, local Ollama endpoints, and RRF-fused database retrievals (Qdrant & SQLite).
-* **🛠️ Developer Tooling** — VS Code extensions, custom compiler runners, and custom forks of standard editor shells (Electron/Code-OSS).
-* **⚙️ Systems Integration** — Building low-latency backend APIs (FastAPI/Flask) packaged inside responsive desktop shells (PyWebView/Monaco Editor).
+* **🧠 Deep Learning & NLP** — Custom Transformer architectures, causal self-attention, KV-caching, and BPE tokenizer training.
+* **🤖 Local AI & RAG** — Offline workflows using LangGraph agent pipelines, local Ollama endpoints, and vector search (Qdrant).
+* **🛠️ Developer Tooling** — VS Code extensions, custom compiler runners, and custom editor forks (Electron/Code-OSS).
 
 ---
 
-## 🚀 Featured Engineering Projects
+## 🚀 Flagship Builds
 
-### 🤖 Local AI & Machine Learning
 * **[Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)**  
-  *A GPT-style multilingual code autocompletion Transformer (Python/C/Java) trained entirely from scratch.*  
-  `PyTorch` `Transformers` `FlashAttention` `BPE Tokenizer` `GPU Acceleration`  
-  * Manually implemented causal self-attention, rotary embeddings (RoPE), KV-caching, and logit soft-capping.
-  * Packaged self-contained checkpoints embedding the token vocabulary directly into PyTorch weights.
+  *A GPT-style multilingual code autocompletion Transformer (Python/C/Java) trained from scratch.*  
+  `PyTorch` `Transformers` `FlashAttention` `BPE Tokenizer`
 * **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)**  
   *A local-first, privacy-focused hybrid RAG engine and CLI for document databases & Obsidian Vaults.*  
-  `Python` `LangGraph` `Qdrant` `Ollama` `SQLite`  
-  * Combines vector similarity with graph-like centrality scoring using Reciprocal Rank Fusion (RRF).
-  * Implemented an agentic self-correction loop checking prompt context against retrieval groundings.
-* **[Hybrid AI Chatbot](https://github.com/CODExGAMERZ/chatbot-ai)**  
-  *A self-improving offline conversation pipeline matching semantic memory with intent classifiers.*  
-  `Python` `TensorFlow` `FAISS` `SentenceTransformers`
-* **[DataMind AI](https://github.com/CODExGAMERZ/DataMind-ai)**  
-  *An Android assistant app for compiling research summaries and gamified statistical insights.*  
-  `Kotlin` `Jetpack Compose` `Gemini API` `Supabase`
-
-### 🛠️ Developer Tools & IDEs
+  `Python` `LangGraph` `Qdrant` `Ollama` `SQLite`
 * **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)**  
-  *A customized open-source distribution of VS Code (Code - OSS) built for Windows.*  
-  `TypeScript` `Electron` `Node.js` `Ollama`  
-  * Features a built-in inline autocomplete companion engine with debounced local telemetry and FIM prompt construction.
+  *A customized open-source distribution of VS Code (Code - OSS) built for Windows with built-in AI autocomplete.*  
+  `TypeScript` `Electron` `Node.js` `Ollama`
 * **[LogicScope](https://github.com/CODExGAMERZ/LogicScope)** ([Live Demo](https://logicscope.vercel.app/))  
-  *A real-time DSA visualizer extension rendering Mermaid diagrams and call stacks directly in the gutter.*  
-  `VS Code Extension` `TypeScript` `WebAssembly` `Tree-sitter` `Mermaid.js`
-* **[DataPrism](https://github.com/CODExGAMERZ/DataPrism)** ([Live Demo](https://dataprismext.vercel.app/))  
-  *An offline tabbed dataset profiler and visual descriptive statistics engine for CSV and JSON.*  
-  `VS Code Extension` `TypeScript` `React` `Vite`
-* **[ModelSight](https://github.com/CODExGAMERZ/Model-Sight)** ([Live Demo](https://modelsight.vercel.app/))  
-  *A live telemetry dashboard and runtime error explainer extension for PyTorch and Keras.*  
-  `VS Code Extension` `Python` `WebSockets` `HTML5`
+  *A real-time DSA visualizer VS Code extension rendering Mermaid diagrams and call stacks directly in the gutter.*  
+  `TypeScript` `WebAssembly` `Tree-sitter` `Mermaid.js`
 * **[VoltC](https://github.com/CODExGAMERZ/VoltC)**  
   *A native desktop C/C++ IDE wrapper for Linux desktops featuring sub-process compiler pipelines.*  
   `Python` `FastAPI` `Monaco Editor` `PyWebView`
-* **[C-Code-Assistant](https://github.com/CODExGAMERZ/C-Code-Assistant) & [Python-Code-Assistant](https://github.com/CODExGAMERZ/Python-Code-Assistant)**  
-  *Local IDE shells with compilation checkpoints, flake8/cppcheck linting, and LLM self-correcting logic.*  
-  `Flask` `Ollama` `GCC` `Python`
 
-### 🌐 Web Apps & Utilities
-* **[llm-advisor.dev](https://github.com/CODExGAMERZ/llm-advisor)** ([Live Demo](https://llm-advisor-ai.vercel.app/))  
-  *A static hardware memory calculator estimating VRAM requirements for local LLM weights & KV-cache.*  
-  `JavaScript (ESM)` `CSS Grid` `Hardware Modeling`
-* **[VoltC Showcase](https://github.com/CODExGAMERZ/VoltC-Website)** ([Live Demo](https://volt-c.vercel.app/))  
-  *An interactive landing page hosting an online, sandboxed C simulator compiled client-side.*  
-  `HTML5` `Vanilla CSS` `Monaco Editor` `Vercel`
-* **[Kryptonix](https://github.com/CODExGAMERZ/crypto-website)** ([Live Demo](https://kryptonix-tv.vercel.app/))  
-  *An obsidian-themed crypto portal caching API calls locally with resilient fallback streams.*  
-  `JavaScript` `TradingView Widgets` `localStorage Caching`
+> 📂 **More Projects:** `LinguistReport` • `DataPrism` • `ModelSight` • `scaffold-agent-skill` • `DataMind AI` • `C-Code-Assistant` • `Python-Code-Assistant` • `llm-advisor.dev` • `VoltC-Website` • `Kryptonix` • `FocusFlow` • `WebNotes` • `CineFinder` • `QR Code CLI`. Find full details on my **[💻 Live Portfolio](https://codexgamerz.github.io)**.
 
 ---
 
@@ -77,7 +44,7 @@ I design and build **performance-first developer tools, local machine learning p
 
 ```
 ┌──────────────────┬────────────────────────────────────────────────────────────────────────┐
-│ Languages        │ Python • TypeScript • JavaScript (ES6+) • Kotlin • C • HTML5 • CSS3    │
+│ Languages        │ Python • TypeScript • JavaScript • Kotlin • C • HTML5 • CSS3           │
 ├──────────────────┼────────────────────────────────────────────────────────────────────────┤
 │ AI & ML          │ PyTorch • TensorFlow • FAISS • SentenceTransformers • LangGraph • LLMs │
 ├──────────────────┼────────────────────────────────────────────────────────────────────────┤
