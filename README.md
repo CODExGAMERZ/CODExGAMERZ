@@ -27,6 +27,12 @@ I specialize in building **performance-first developer tooling, local-first mach
 * **Optimization**: Enabled FlashAttention (SDPA) and dynamic KV-caching to accelerate inference speeds on consumer GPUs.
 * **Stack**: `PyTorch` • `Transformers` • `FlashAttention` • `BPE Tokenizer` • `DDP`
 
+### **[B.Tech-AI-Tutor-7B](https://github.com/CODExGAMERZ/B.Tech-AI-Tutor-7B)**  
+*Fine-tuned academic study tutor built on top of Qwen-2.5-7B-Instruct, optimized for Colab training & local GGUF running.*  
+* **Architecture**: Trained a custom 5-layer dataset pipeline spanning ~480K instruction-tuning samples and 15K preference pairs.
+* **Optimization**: Configured multi-phase pipeline executing SFT and DPO via Unsloth, quantized to GGUF format for low-latency local running (Ollama/llama.cpp).
+* **Stack**: `PyTorch` • `Qwen-2.5` • `Unsloth` • `DPO / SFT` • `HuggingFace` • `GGUF` • `Ollama`
+
 ### **[SentinelRAG](https://github.com/CODExGAMERZ/SentinelRAG)**  
 *Privacy-first local search engine transforming directories and Obsidian vaults into context-aware systems.*  
 * **Ingestion**: Engineered a debounced filesystem watcher parsing markdown links and headers in real-time.
