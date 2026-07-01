@@ -39,6 +39,13 @@ I specialize in building **performance-first developer tooling, local-first mach
 * **Retrieval**: Fused vector search scores with SQLite structural centrality metrics using Reciprocal Rank Fusion (RRF).
 * **Stack**: `Python` • `LangGraph` • `Qdrant` • `Ollama` • `SQLite`
 
+### **[JarvisRAG](https://github.com/CODExGAMERZ/JarvisRAG)**  
+*Local-first knowledge base assistant ingesting documents into a vector database with a central command UI.*  
+* **Ingestion**: Ingests `.pdf`, `.txt`, and `.md` files dynamically using local embedding models into a FAISS vector store.
+* **Interface**: Features a futuristic browser console with MathJax LaTeX rendering, marked-down contexts, and a live search telemetry stream.
+* **Stack**: `Python` • `FastAPI` • `FAISS` • `Gemini API` • `Tailwind CSS`
+
+
 ### **[KeyCode](https://github.com/CODExGAMERZ/KeyCode)**  
 *A custom Windows distribution of VS Code (Code - OSS) with a built-in AI autocomplete companion.*  
 * **Built-in Extension**: Developed a custom completion provider utilizing Fill-in-the-Middle (FIM) prompt formatting.
