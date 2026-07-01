@@ -94,5 +94,5 @@ I specialize in building **performance-first developer tooling, local-first mach
 </table>
 
 <p align="center">
-  <i>Explore all 20+ projects and live web simulators on my <b><a href="https://codexgamerz.github.io">Live Portfolio</a></b>.</i>
+  <i>Explore all 22+ projects and live web simulators on my <b><a href="https://codexgamerz.github.io">Live Portfolio</a></b>.</i>
 </p>
