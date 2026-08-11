@@ -23,6 +23,13 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
+### 🔌 [Homogenous](https://github.com/CODExGAMERZ/homogenous)
+*Local-first, zero-overhead agentic CLI coding assistant built in TypeScript and Ink.*
+- **Architecture & TUI**: Dynamic terminal UI using React 19 and Ink, featuring syntax-highlighted code blocks, state-reactive borders, and live spinners.
+- **Provider Routing**: Connects both local offline runtimes (Ollama, LM Studio) and cloud APIs (Anthropic, OpenAI, Groq, NVIDIA NIM, DeepSeek) with failover.
+- **Advanced Control**: Standing plan mode (`/plan` & `/apply`), safe auto-approve safeguards, and unified colorized diff rollback system.
+- **Stack**: `TypeScript` • `Node.js` • `React (Ink)` • `Ollama` • `Anthropic` • `MCP SDK` • `Zod`
+
 ### 🧠 [Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 *Multilingual GPT-style autocomplete model trained from scratch supporting Python, C, and Java.*
 - **Architecture & Design**: Integrated **Rotary Positional Embeddings (RoPE)**, **GeGLU gating**, and soft logit capping into a custom causal decoder framework.
@@ -99,11 +106,11 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 <p align="center">
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://github-readme-stats.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
+    <img src="https://github-stats-extended.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CODExGAMERZ&theme=dark&hide_border=true&background=0D0D11&ring=6366f1&fire=10b981&currStreakNum=F4F4F5&sideNums=A1A1AA&sideLabels=A1A1AA&dates=A1A1AA" alt="Aryan's Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=CODExGAMERZ&theme=dark&hide_border=true&background=0D0D11&ring=6366f1&fire=10b981&currStreakNum=F4F4F5&sideNums=A1A1AA&sideLabels=A1A1AA&dates=A1A1AA" alt="Aryan's Streak Stats" />
   </a>
 </p>
 
