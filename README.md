@@ -23,12 +23,13 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
-### 🔌 [Homogenous](https://github.com/CODExGAMERZ/homogenous)
-*Local-first, zero-overhead agentic CLI coding assistant built in TypeScript and Ink.*
-- **Architecture & TUI**: Dynamic terminal UI using React 19 and Ink, featuring syntax-highlighted code blocks, state-reactive borders, and live spinners.
-- **Provider Routing**: Connects both local offline runtimes (Ollama, LM Studio) and cloud APIs (Anthropic, OpenAI, Groq, NVIDIA NIM, DeepSeek) with failover.
-- **Advanced Control**: Standing plan mode (`/plan` & `/apply`), safe auto-approve safeguards, and unified colorized diff rollback system.
-- **Stack**: `TypeScript` • `Node.js` • `React (Ink)` • `Ollama` • `Anthropic` • `MCP SDK` • `Zod`
+### 🔌 [Homogenous (v3.7.0)](https://github.com/CODExGAMERZ/homogenous)
+*Enterprise-grade, local-first, zero-overhead agentic CLI coding assistant built in TypeScript and React Ink.*
+- **Zero-Trust Security & Sandbox**: Enforces strict `execFileDirect` command safety, realpath symlink containment, and IPv4-mapped IPv6 SSRF defense with interactive user approval gates.
+- **Scrollback-Preserved TUI**: Built on React 19 and Ink 7 with syntax-highlighted code blocks, token-aware cell line wrapping, and zero terminal scrollback locking.
+- **Multi-Provider & MCP Integration**: Unifies offline local runtimes (Ollama, LM Studio) with 9 cloud providers and Model Context Protocol (MCP v1.29) server tools.
+- **Agentic Control & Memory**: Supports standing plan mode (`/plan`, `/mode`), persistent term-frequency project memory (`.agentmemory`), dynamic skills ecosystem, and session diff rollback (`/undo`).
+- **Stack**: `TypeScript` • `Node.js` • `React (Ink 7)` • `Ollama` • `LM Studio` • `Anthropic` • `MCP SDK` • `Zod 4`
 
 ### 🧠 [Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 *Multilingual GPT-style autocomplete model trained from scratch supporting Python, C, and Java.*
