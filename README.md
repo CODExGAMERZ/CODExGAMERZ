@@ -23,13 +23,13 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
-### 🔌 [Homogenous (v3.7.0)](https://github.com/CODExGAMERZ/homogenous)
+### 🔌 [Homogenous (v3.9.0)](https://github.com/CODExGAMERZ/homogenous)
 *Enterprise-grade, local-first, zero-overhead agentic CLI coding assistant built in TypeScript and React Ink.*
-- **Zero-Trust Security & Sandbox**: Enforces strict `execFileDirect` command safety, realpath symlink containment, and IPv4-mapped IPv6 SSRF defense with interactive user approval gates.
-- **Scrollback-Preserved TUI**: Built on React 19 and Ink 7 with syntax-highlighted code blocks, token-aware cell line wrapping, and zero terminal scrollback locking.
-- **Multi-Provider & MCP Integration**: Unifies offline local runtimes (Ollama, LM Studio) with 9 cloud providers and Model Context Protocol (MCP v1.29) server tools.
-- **Agentic Control & Memory**: Supports standing plan mode (`/plan`, `/mode`), persistent term-frequency project memory (`.agentmemory`), dynamic skills ecosystem, and session diff rollback (`/undo`).
-- **Stack**: `TypeScript` • `Node.js` • `React (Ink 7)` • `Ollama` • `LM Studio` • `Anthropic` • `MCP SDK` • `Zod 4`
+- **Universal Tool Call Parser**: Intercepts function calls across all formats (Groq/Llama 3 inline, Anthropic XML, OpenAI/Ollama XML, Markdown JSON codeblocks).
+- **30 FPS Frame-Throttled TUI & Autocomplete**: AST-memoized streaming at ~30 FPS without terminal redraw jitter, multi-phase slash autocomplete engine (`Tab`/`Shift+Tab`), and multi-line clipboard paste.
+- **Zero-Trust Sandbox & Security**: Strict `execFileDirect` command isolation, realpath symlink containment, IPv4-mapped IPv6 SSRF protection, and user confirmation gates.
+- **Multi-Provider & MCP Integration**: Native offline local runtimes (Ollama, LM Studio) + 9 cloud providers, Model Context Protocol (MCP v1.29), adaptive TPM token budgeting, and persistent memory.
+- **Stack**: `TypeScript 5` • `Node.js 20+` • `React (Ink 7)` • `Ollama` • `LM Studio` • `Anthropic` • `Groq` • `MCP SDK` • `Zod 4`
 
 ### 🧠 [Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 *Multilingual GPT-style autocomplete model trained from scratch supporting Python, C, and Java.*
