@@ -24,11 +24,11 @@ I specialize in building **performance-first developer tooling, local-first mach
 ## 🚀 Flagship Projects
 
 ### 🔌 [Homogenous (v3.9.0)](https://github.com/CODExGAMERZ/homogenous)
-*Enterprise-grade, local-first, zero-overhead agentic CLI coding assistant built in TypeScript and React Ink.*
-- **Universal Tool Call Parser**: Intercepts function calls across all formats (Groq/Llama 3 inline, Anthropic XML, OpenAI/Ollama XML, Markdown JSON codeblocks).
-- **30 FPS Frame-Throttled TUI & Autocomplete**: AST-memoized streaming at ~30 FPS without terminal redraw jitter, multi-phase slash autocomplete engine (`Tab`/`Shift+Tab`), and multi-line clipboard paste.
-- **Zero-Trust Sandbox & Security**: Strict `execFileDirect` command isolation, realpath symlink containment, IPv4-mapped IPv6 SSRF protection, and user confirmation gates.
-- **Multi-Provider & MCP Integration**: Native offline local runtimes (Ollama, LM Studio) + 9 cloud providers, Model Context Protocol (MCP v1.29), adaptive TPM token budgeting, and persistent memory.
+*Enterprise-grade, local-first agentic CLI coding assistant — uniting private offline LLMs and multi-cloud AI routing with zero-trust execution safety.*
+- **Universal Tool Call Parser**: Seamlessly intercepts and executes function calls across all formats (Groq/Llama 3 inline `<function/write_file>`, Anthropic XML, OpenAI/Ollama XML, and Markdown JSON codeblocks).
+- **Zero-Trust Security Sandbox**: Enforces strict `execFileDirect` command isolation, realpath symlink containment, IPv4-mapped IPv6 SSRF defense, and interactive user approval gates.
+- **30 FPS Terminal TUI & Autocomplete**: AST-memoized streaming at 30 FPS eliminating terminal redraw jitter, with multi-phase `Tab`/`Shift+Tab` slash & provider autocomplete and multi-line clipboard paste.
+- **Multi-Provider & MCP Ecosystem**: Native offline local runtimes (**Ollama**, **LM Studio**) + 9 frontier cloud providers, Model Context Protocol (MCP v1.29 SDK) server tools, adaptive TPM token budgeting, and persistent project memory (`.agentmemory`).
 - **Stack**: `TypeScript 5` • `Node.js 20+` • `React (Ink 7)` • `Ollama` • `LM Studio` • `Anthropic` • `Groq` • `MCP SDK` • `Zod 4`
 
 ### 🧠 [Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
