@@ -24,13 +24,13 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
-### 🔌 [Homogenous (v3.9.0)](https://github.com/CODExGAMERZ/homogenous)
-*Enterprise-grade, local-first agentic CLI coding assistant — uniting private offline LLMs and multi-cloud AI routing with zero-trust execution safety.*
-- **Universal Tool Call Parser**: Seamlessly intercepts and executes function calls across all formats (Groq/Llama 3 inline `<function/write_file>`, Anthropic XML, OpenAI/Ollama XML, and Markdown JSON codeblocks).
-- **Zero-Trust Security Sandbox**: Enforces strict `execFileDirect` command isolation, realpath symlink containment, IPv4-mapped IPv6 SSRF defense, and interactive user approval gates.
-- **30 FPS Terminal TUI & Autocomplete**: AST-memoized streaming at 30 FPS eliminating terminal redraw jitter, with multi-phase `Tab`/`Shift+Tab` slash & provider autocomplete and multi-line clipboard paste.
-- **Multi-Provider & MCP Ecosystem**: Native offline local runtimes (**Ollama**, **LM Studio**) + 9 frontier cloud providers, Model Context Protocol (MCP v1.29 SDK) server tools, adaptive TPM token budgeting, and persistent project memory (`.agentmemory`).
-- **Stack**: `TypeScript 5` • `Node.js 20+` • `React (Ink 7)` • `Ollama` • `LM Studio` • `Anthropic` • `Groq` • `MCP SDK` • `Zod 4`
+### 🔌 [Homogenous (v4.0.3)](https://github.com/CODExGAMERZ/homogenous)
+*Enterprise-grade, local-first agentic CLI coding assistant — uniting private offline LLMs and 11 multi-cloud AI providers with zero-leak security and 10 autonomous workspace tools.*
+- **Autonomous Agent Loop & Universal Parser**: Intercepts and executes function calls across all formats (Groq/Llama 3 inline, Anthropic XML, OpenAI/Ollama XML, and Markdown JSON) with adaptive token budgeting and plan-and-apply dual execution modes.
+- **Enterprise Zero-Leak Security Vault**: Enforces machine-bound **AES-256-GCM** credential encryption (`0600` permissions), OS Keychain sync, strict `execFileDirect` command isolation, realpath symlink containment, and IPv4-mapped IPv6 SSRF defense.
+- **60 FPS Reactive Terminal TUI**: AST-memoized streaming at 60 FPS eliminating terminal redraw jitter, non-blocking cursor movement, multi-phase `Tab`/`Shift+Tab` autocomplete, and multi-line clipboard pasting.
+- **11 Inference Engines & MCP Ecosystem**: Native offline local runtimes (**Ollama**, **LM Studio**) + 9 frontier cloud providers (**NVIDIA NIM**, **Anthropic**, **Groq**, **DeepSeek**, **OpenAI**), Model Context Protocol (MCP v1.29 SDK) server tools, and persistent project memory (`.agentmemory`).
+- **Stack**: `TypeScript 5` • `Node.js 20+` • `React (Ink 7)` • `NVIDIA NIM` • `Ollama` • `LM Studio` • `Anthropic` • `Groq` • `MCP SDK` • `AES-256-GCM`
 
 ### 🧠 [Code Autocomplete LLM](https://github.com/CODExGAMERZ/Code-AutoComplete-LLM)
 *Multilingual GPT-style autocomplete model trained from scratch supporting Python, C, and Java.*
