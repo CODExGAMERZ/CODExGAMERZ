@@ -14,8 +14,9 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## ⚡ Technical Core Areas
 
+- 🤖 **Agentic AI & Coding Assistants**: Local-first CLI agents with zero-trust execution sandboxing, AST-memoized 30 FPS terminal streaming (React Ink), Model Context Protocol (MCP v1.29 SDK), and multi-provider offline inference (Ollama, LM Studio).
 - 🧠 **Deep Learning & Transformers**: Autoregressive decoder-only Transformer design (causal self-attention, rotary positional embeddings (RoPE), KV-caching, FlashAttention) trained from scratch.
-- 🤖 **Retrieval-Augmented Generation (RAG)**: Intent-driven multi-agent workflows (LangGraph), high-performance vector databases (Qdrant, FAISS), and Reciprocal Rank Fusion (RRF) for hybrid retrieval.
+- 🔍 **Retrieval-Augmented Generation (RAG)**: Intent-driven multi-agent workflows (LangGraph), high-performance vector databases (Qdrant, FAISS), and Reciprocal Rank Fusion (RRF) for hybrid retrieval.
 - 🛠️ **Systems & Developer Tooling**: Abstract Syntax Tree (AST) parsing with WebAssembly Tree-sitter, VS Code extension development, and custom Electron/Code-OSS IDE compilation.
 - 💻 **Desktop & Native Wrappers**: Lightweight native GUI applications using PyWebView, FastAPI, Monaco Editor integration, and sub-process compiler integration.
 
@@ -82,21 +83,21 @@ I specialize in building **performance-first developer tooling, local-first mach
   <tr>
     <td width="50%">
       <b>Languages</b><br/>
-      <code>Python</code> • <code>TypeScript</code> • <code>JavaScript (ES6+)</code> • <code>Kotlin</code> • <code>C</code> • <code>HTML5</code> • <code>CSS3</code>
+      <code>TypeScript</code> • <code>Python</code> • <code>JavaScript (ES6+)</code> • <code>Kotlin</code> • <code>C</code> • <code>HTML5</code> • <code>CSS3</code>
     </td>
     <td width="50%">
-      <b>AI & Deep Learning</b><br/>
-      <code>PyTorch</code> • <code>TensorFlow</code> • <code>FAISS</code> • <code>SentenceTransformers</code> • <code>LangGraph</code> • <code>HuggingFace</code>
+      <b>AI & Agentic Systems</b><br/>
+      <code>Ollama</code> • <code>LM Studio</code> • <code>PyTorch</code> • <code>LangGraph</code> • <code>FAISS</code> • <code>Qdrant</code> • <code>HuggingFace</code> • <code>Anthropic / Groq APIs</code>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <b>Developer Tooling</b><br/>
-      <code>VS Code Extension API</code> • <code>WebAssembly</code> • <code>Electron</code> • <code>Monaco Editor</code> • <code>Tree-sitter (ASTs)</code>
+      <code>React (Ink TUI)</code> • <code>Model Context Protocol (MCP SDK)</code> • <code>VS Code Extension API</code> • <code>WebAssembly</code> • <code>Electron</code> • <code>Tree-sitter (ASTs)</code>
     </td>
     <td width="50%">
       <b>Backend & Infrastructure</b><br/>
-      <code>Node.js</code> • <code>FastAPI</code> • <code>Flask</code> • <code>Qdrant</code> • <code>SQLite</code> • <code>Supabase</code> • <code>WebSockets</code>
+      <code>Node.js</code> • <code>FastAPI</code> • <code>Flask</code> • <code>SQLite</code> • <code>Supabase</code> • <code>WebSockets</code>
     </td>
   </tr>
 </table>
