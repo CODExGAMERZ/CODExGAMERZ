@@ -104,15 +104,29 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ---
 
-## 📊 GitHub Metrics
+## 📊 GitHub Metrics & Activity
 
 <p align="center">
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
+    <img src="https://img.shields.io/github/followers/CODExGAMERZ?style=for-the-badge&logo=github&label=Followers&color=6366f1" alt="Followers" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
+  <a href="https://github.com/CODExGAMERZ?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-25-6366f1?style=for-the-badge&logo=github" alt="Repositories" />
+  </a>
+  &nbsp;
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=CODExGAMERZ&layout=compact&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Top Languages" />
+    <img src="https://img.shields.io/badge/2026%20Contributions-396+-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Contributions" />
+  </a>
+  &nbsp;
+  <a href="https://komarev.com/ghpvc/?username=CODExGAMERZ">
+    <img src="https://komarev.com/ghpvc/?username=CODExGAMERZ&style=for-the-badge&color=6366f1&label=Profile+Views" alt="Profile Views" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/CODExGAMERZ">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=CODExGAMERZ&theme=tokyo-night&hide_border=true&bg_color=0D0D11&color=6366f1&line=6366f1&point=10b981&area=true&hide_title=true" alt="Aryan's GitHub Activity Graph" width="95%" />
   </a>
 </p>
 
