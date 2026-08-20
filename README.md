@@ -108,11 +108,11 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 <p align="center">
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://github-stats-extended.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=CODExGAMERZ&show_icons=true&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Aryan's GitHub Stats" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/CODExGAMERZ">
-    <img src="https://streak-stats.demolab.com/?user=CODExGAMERZ&theme=dark&hide_border=true&background=0D0D11&ring=6366f1&fire=10b981&currStreakNum=F4F4F5&sideNums=A1A1AA&sideLabels=A1A1AA&dates=A1A1AA" alt="Aryan's Streak Stats" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=CODExGAMERZ&layout=compact&theme=calm&hide_border=true&bg_color=0D0D11&title_color=6366f1&icon_color=6366f1&text_color=A1A1AA" alt="Top Languages" />
   </a>
 </p>
 
