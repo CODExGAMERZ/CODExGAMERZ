@@ -14,7 +14,7 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## ⚡ Technical Core Areas
 
-- 🤖 **Agentic AI & Coding Assistants**: Local-first CLI agents with zero-trust execution sandboxing, AST-memoized 30 FPS terminal streaming (React Ink), Model Context Protocol (MCP v1.29 SDK), and multi-provider offline inference (Ollama, LM Studio).
+- 🤖 **Agentic AI & Coding Assistants**: Local-first CLI agents with zero-trust execution sandboxing, AST-memoized 60 FPS terminal streaming (React Ink), Model Context Protocol (MCP v1.29 SDK), and multi-provider offline inference (Ollama, LM Studio).
 - 🧠 **Deep Learning & Transformers**: Autoregressive decoder-only Transformer design (causal self-attention, rotary positional embeddings (RoPE), KV-caching, FlashAttention) trained from scratch.
 - 🔍 **Retrieval-Augmented Generation (RAG)**: Intent-driven multi-agent workflows (LangGraph), high-performance vector databases (Qdrant, FAISS), and Reciprocal Rank Fusion (RRF) for hybrid retrieval.
 - 🛠️ **Systems & Developer Tooling**: Abstract Syntax Tree (AST) parsing with WebAssembly Tree-sitter, VS Code extension development, and custom Electron/Code-OSS IDE compilation.
@@ -24,7 +24,7 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
-### 🔌 [Homogenous (v4.0.3)](https://github.com/CODExGAMERZ/homogenous)
+### 🔌 [Homogenous (v4.2.0)](https://github.com/CODExGAMERZ/homogenous)
 *Enterprise-grade, local-first agentic CLI coding assistant — uniting private offline LLMs and 11 multi-cloud AI providers with zero-leak security and 10 autonomous workspace tools.*
 - **Autonomous Agent Loop & Universal Parser**: Intercepts and executes function calls across all formats (Groq/Llama 3 inline, Anthropic XML, OpenAI/Ollama XML, and Markdown JSON) with adaptive token budgeting and plan-and-apply dual execution modes.
 - **Enterprise Zero-Leak Security Vault**: Enforces machine-bound **AES-256-GCM** credential encryption (`0600` permissions), OS Keychain sync, strict `execFileDirect` command isolation, realpath symlink containment, and IPv4-mapped IPv6 SSRF defense.
