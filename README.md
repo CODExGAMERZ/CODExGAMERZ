@@ -24,7 +24,7 @@ I specialize in building **performance-first developer tooling, local-first mach
 
 ## 🚀 Flagship Projects
 
-### 🔌 [Homogenous (v4.2.0)](https://github.com/CODExGAMERZ/homogenous)
+### 🔌 [Homogenous (v4.2.7)](https://github.com/CODExGAMERZ/homogenous)
 *Enterprise-grade, local-first agentic CLI coding assistant — uniting private offline LLMs and 11 multi-cloud AI providers with zero-leak security and 10 autonomous workspace tools.*
 - **Autonomous Agent Loop & Universal Parser**: Intercepts and executes function calls across all formats (Groq/Llama 3 inline, Anthropic XML, OpenAI/Ollama XML, and Markdown JSON) with adaptive token budgeting and plan-and-apply dual execution modes.
 - **Enterprise Zero-Leak Security Vault**: Enforces machine-bound **AES-256-GCM** credential encryption (`0600` permissions), OS Keychain sync, strict `execFileDirect` command isolation, realpath symlink containment, and IPv4-mapped IPv6 SSRF defense.
